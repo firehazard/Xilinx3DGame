@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/sync_gen50.xst -ofn sync_gen50.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -i  -p xc2s100-tq144-6 sync_gen50.ngc sync_gen50.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o sync_gen50_map.ncd sync_gen50.ngd sync_gen50.pcf
+par -w -intstyle ise -ol high -t 1 sync_gen50_map.ncd sync_gen50.ncd sync_gen50.pcf
+trce -intstyle ise -e 3 -l 3 -xml sync_gen50 sync_gen50.ncd -o sync_gen50.twr sync_gen50.pcf
+bitgen -intstyle ise -f sync_gen50.ut sync_gen50.ncd

@@ -1,0 +1,1106 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: top_dog.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : top_dog.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : top_dog
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : top_dog
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Area
+Optimization Effort                : 2
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : top_dog.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:Xst:878 - bram1.v line 134: Unrecognized directive. Ignoring.
+WARNING:Xst:878 - bram2.v line 134: Unrecognized directive. Ignoring.
+Compiling source file "dff.v"
+Compiling source file "gamepad.v"
+Module <DFF> compiled
+Module <Debounce> compiled
+Module <Gamepad> compiled
+Module <gCounter> compiled
+Compiling source file "50MHZ_VGA.V"
+Module <sync_gen50> compiled
+Compiling source file "TCGROM.V"
+Module <tcgrom> compiled
+Compiling source file "dffre.v"
+Module <dffre> compiled
+Compiling source file "counter.v"
+Module <counter> compiled
+Compiling source file "edge_detect.v"
+Module <edge_detect> compiled
+Compiling source file "slow_clk.v"
+Module <slow_clk> compiled
+Compiling source file "depthcomp.v"
+Module <depthcomp> compiled
+Compiling source file "Growth_LUT.v"
+Module <Growth_LUT> compiled
+Compiling source file "CoordTrans.v"
+Module <CoordTrans> compiled
+Compiling source file "square_unit.v"
+Module <square_unit> compiled
+Compiling source file "ClearBram.v"
+Module <ClearBram> compiled
+Compiling source file "CruiserView.v"
+Module <CruiserView> compiled
+Compiling source file "SquareWriter.v"
+Module <SquareWriter> compiled
+Compiling source file "EdgeCalculator.v"
+Module <EdgeCalculator> compiled
+Compiling source file "PointWriter.v"
+Module <PointWriter> compiled
+Compiling source file "lfsr.v"
+Module <LFSR> compiled
+Compiling source file "Tunnel.v"
+Module <Tunnel> compiled
+Compiling source file "bram1.v"
+Module <bram1> compiled
+Compiling source file "bram2.v"
+Module <bram2> compiled
+Compiling source file "top_dog.v"
+Module <top_dog> compiled
+No errors in compilation
+Analysis of file <top_dog.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top_dog>.
+Module <top_dog> is correct for synthesis.
+ 
+Analyzing module <DFF>.
+Module <DFF> is correct for synthesis.
+ 
+Analyzing module <Gamepad>.
+Module <Gamepad> is correct for synthesis.
+ 
+Analyzing module <Debounce>.
+Module <Debounce> is correct for synthesis.
+ 
+Analyzing module <gCounter>.
+Module <gCounter> is correct for synthesis.
+ 
+Analyzing module <DFF_4>.
+Module <DFF_4> is correct for synthesis.
+ 
+Analyzing module <sync_gen50>.
+Module <sync_gen50> is correct for synthesis.
+ 
+Analyzing module <tcgrom>.
+Module <tcgrom> is correct for synthesis.
+ 
+Analyzing module <DFF_1>.
+Module <DFF_1> is correct for synthesis.
+ 
+Analyzing module <DFF_2>.
+Module <DFF_2> is correct for synthesis.
+ 
+Analyzing module <DFF_3>.
+Module <DFF_3> is correct for synthesis.
+ 
+Analyzing module <Tunnel>.
+Module <Tunnel> is correct for synthesis.
+ 
+Analyzing module <slow_clk>.
+Module <slow_clk> is correct for synthesis.
+ 
+Analyzing module <counter_1>.
+Module <counter_1> is correct for synthesis.
+ 
+Analyzing module <dffre>.
+Module <dffre> is correct for synthesis.
+ 
+Analyzing module <slow_clk_1>.
+Module <slow_clk_1> is correct for synthesis.
+ 
+Analyzing module <counter_2>.
+Module <counter_2> is correct for synthesis.
+ 
+Analyzing module <dffre_1>.
+Module <dffre_1> is correct for synthesis.
+ 
+Analyzing module <counter>.
+Module <counter> is correct for synthesis.
+ 
+Analyzing module <dffre_2>.
+Module <dffre_2> is correct for synthesis.
+ 
+Analyzing module <edge_detect>.
+Module <edge_detect> is correct for synthesis.
+ 
+Analyzing module <depthcomp>.
+Module <depthcomp> is correct for synthesis.
+ 
+Analyzing module <square_unit>.
+Module <square_unit> is correct for synthesis.
+ 
+Analyzing module <Growth_LUT>.
+Module <Growth_LUT> is correct for synthesis.
+ 
+Analyzing module <DFF_5>.
+Module <DFF_5> is correct for synthesis.
+ 
+Analyzing module <DFF_6>.
+Module <DFF_6> is correct for synthesis.
+ 
+Analyzing module <CoordTrans>.
+Module <CoordTrans> is correct for synthesis.
+ 
+Analyzing module <ClearBram>.
+Module <ClearBram> is correct for synthesis.
+ 
+Analyzing module <counter_3>.
+Module <counter_3> is correct for synthesis.
+ 
+Analyzing module <dffre_3>.
+Module <dffre_3> is correct for synthesis.
+ 
+Analyzing module <CruiserView>.
+Module <CruiserView> is correct for synthesis.
+ 
+Analyzing module <DFF_7>.
+Module <DFF_7> is correct for synthesis.
+ 
+Analyzing module <SquareWriter>.
+Module <SquareWriter> is correct for synthesis.
+ 
+Analyzing module <DFF_8>.
+Module <DFF_8> is correct for synthesis.
+ 
+Analyzing module <DFF_9>.
+Module <DFF_9> is correct for synthesis.
+ 
+Analyzing module <EdgeCalculator>.
+Module <EdgeCalculator> is correct for synthesis.
+ 
+Analyzing module <PointWriter>.
+Module <PointWriter> is correct for synthesis.
+ 
+Analyzing module <counter_4>.
+Module <counter_4> is correct for synthesis.
+ 
+Analyzing module <dffre_4>.
+Module <dffre_4> is correct for synthesis.
+ 
+Analyzing module <counter_5>.
+Module <counter_5> is correct for synthesis.
+ 
+Analyzing module <dffre_5>.
+Module <dffre_5> is correct for synthesis.
+ 
+Analyzing module <LFSR>.
+Module <LFSR> is correct for synthesis.
+ 
+Analyzing module <DFF_10>.
+Module <DFF_10> is correct for synthesis.
+ 
+Analyzing module <bram1>.
+WARNING:Xst:37 - Unknown property "fpga_dont_touch".
+Analyzing module <bram2>.
+WARNING:Xst:37 - Unknown property "fpga_dont_touch".
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DFF_10>.
+    Related source file is dff.v.
+    Found 11-bit register for signal <out>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+Unit <DFF_10> synthesized.
+
+
+Synthesizing Unit <dffre_5>.
+    Related source file is dffre.v.
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <dffre_5> synthesized.
+
+
+Synthesizing Unit <dffre_4>.
+    Related source file is dffre.v.
+    Found 7-bit register for signal <q>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <dffre_4> synthesized.
+
+
+Synthesizing Unit <counter_5>.
+    Related source file is counter.v.
+    Found 6-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_5> synthesized.
+
+
+Synthesizing Unit <counter_4>.
+    Related source file is counter.v.
+    Found 7-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_4> synthesized.
+
+
+Synthesizing Unit <DFF_9>.
+    Related source file is dff.v.
+    Found 3-bit register for signal <out>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <DFF_9> synthesized.
+
+
+Synthesizing Unit <DFF_8>.
+    Related source file is dff.v.
+    Found 9-bit register for signal <out>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <DFF_8> synthesized.
+
+
+Synthesizing Unit <DFF_7>.
+    Related source file is dff.v.
+    Found 7-bit register for signal <out>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <DFF_7> synthesized.
+
+
+Synthesizing Unit <dffre_3>.
+    Related source file is dffre.v.
+    Found 13-bit register for signal <q>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <dffre_3> synthesized.
+
+
+Synthesizing Unit <counter_3>.
+    Related source file is counter.v.
+    Found 13-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_3> synthesized.
+
+
+Synthesizing Unit <CoordTrans>.
+    Related source file is CoordTrans.v.
+    Found 9-bit subtractor for signal <$n0000> created at line 5.
+    Found 9-bit subtractor for signal <$n0001> created at line 4.
+    Found 4-bit adder for signal <$n0002> created at line 5.
+    Found 3-bit adder for signal <$n0003> created at line 4.
+    Summary:
+	inferred   4 Adder/Subtracter(s).
+Unit <CoordTrans> synthesized.
+
+
+Synthesizing Unit <DFF_6>.
+    Related source file is dff.v.
+    Found 14-bit register for signal <out>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <DFF_6> synthesized.
+
+
+Synthesizing Unit <DFF_5>.
+    Related source file is dff.v.
+    Found 13-bit register for signal <out>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <DFF_5> synthesized.
+
+
+Synthesizing Unit <Growth_LUT>.
+    Related source file is Growth_LUT.v.
+    Found 13-bit comparator lessequal for signal <$n0000> created at line 8.
+    Found 13-bit comparator greater for signal <$n0001> created at line 8.
+    Found 13-bit comparator lessequal for signal <$n0002> created at line 10.
+    Found 13-bit comparator greater for signal <$n0003> created at line 10.
+    Found 13-bit comparator lessequal for signal <$n0004> created at line 12.
+    Found 13-bit comparator greater for signal <$n0005> created at line 12.
+    Found 13-bit comparator lessequal for signal <$n0006> created at line 14.
+    Found 13-bit comparator greater for signal <$n0007> created at line 14.
+    Found 13-bit comparator lessequal for signal <$n0008> created at line 16.
+    Found 13-bit comparator greater for signal <$n0009> created at line 16.
+    Found 13-bit comparator lessequal for signal <$n0010> created at line 18.
+    Found 13-bit comparator greater for signal <$n0011> created at line 18.
+    Found 13-bit comparator lessequal for signal <$n0012> created at line 20.
+    Found 13-bit comparator greater for signal <$n0013> created at line 20.
+    Found 13-bit comparator lessequal for signal <$n0014> created at line 22.
+    Found 13-bit comparator greater for signal <$n0015> created at line 22.
+    Found 13-bit comparator lessequal for signal <$n0016> created at line 24.
+    Found 13-bit comparator greater for signal <$n0017> created at line 24.
+    Found 13-bit comparator lessequal for signal <$n0018> created at line 26.
+    Found 13-bit comparator greater for signal <$n0019> created at line 26.
+    Found 13-bit comparator lessequal for signal <$n0020> created at line 28.
+    Found 13-bit comparator greater for signal <$n0021> created at line 28.
+    Found 13-bit comparator lessequal for signal <$n0022> created at line 30.
+    Found 13-bit comparator greater for signal <$n0023> created at line 30.
+    Found 13-bit comparator lessequal for signal <$n0024> created at line 32.
+    Found 13-bit comparator greater for signal <$n0025> created at line 32.
+    Found 13-bit comparator lessequal for signal <$n0026> created at line 34.
+    Found 13-bit comparator greater for signal <$n0027> created at line 34.
+    Found 13-bit comparator lessequal for signal <$n0028> created at line 36.
+    Found 13-bit comparator greater for signal <$n0029> created at line 36.
+    Found 13-bit comparator lessequal for signal <$n0030> created at line 38.
+    Found 13-bit comparator greater for signal <$n0031> created at line 38.
+    Summary:
+	inferred  32 Comparator(s).
+Unit <Growth_LUT> synthesized.
+
+
+Synthesizing Unit <dffre_2>.
+    Related source file is dffre.v.
+    Found 4-bit register for signal <q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <dffre_2> synthesized.
+
+
+Synthesizing Unit <dffre_1>.
+    Related source file is dffre.v.
+    Found 16-bit register for signal <q>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <dffre_1> synthesized.
+
+
+Synthesizing Unit <counter_2>.
+    Related source file is counter.v.
+    Found 16-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_2> synthesized.
+
+
+Synthesizing Unit <dffre>.
+    Related source file is dffre.v.
+    Found 19-bit register for signal <q>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+Unit <dffre> synthesized.
+
+
+Synthesizing Unit <counter_1>.
+    Related source file is counter.v.
+    Found 19-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_1> synthesized.
+
+
+Synthesizing Unit <LFSR>.
+    Related source file is lfsr.v.
+    Found 1-bit xor5 for signal <feedback>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <LFSR> synthesized.
+
+
+Synthesizing Unit <PointWriter>.
+    Related source file is PointWriter.v.
+    Found 7-bit comparator greatequal for signal <$n0003> created at line 33.
+    Found 7-bit comparator lessequal for signal <$n0004> created at line 33.
+    Found 6-bit comparator greatequal for signal <$n0008> created at line 38.
+    Found 6-bit comparator lessequal for signal <$n0009> created at line 38.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <PointWriter> synthesized.
+
+
+Synthesizing Unit <EdgeCalculator>.
+    Related source file is EdgeCalculator.v.
+    Found 8-bit subtractor for signal <$n0001> created at line 76.
+    Found 9-bit adder for signal <$n0005> created at line 76.
+    Found 9-bit adder for signal <$n0006> created at line 74.
+    Found 6-bit adder for signal <D>.
+    Found 9-bit subtractor for signal <xstemp>.
+    Found 9-bit subtractor for signal <ystemp>.
+    Found 18 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   6 Adder/Subtracter(s).
+	inferred  18 Multiplexer(s).
+Unit <EdgeCalculator> synthesized.
+
+
+Synthesizing Unit <SquareWriter>.
+    Related source file is SquareWriter.v.
+Unit <SquareWriter> synthesized.
+
+
+Synthesizing Unit <CruiserView>.
+    Related source file is CruiserView.v.
+    Found 7-bit addsub for signal <$n0001>.
+    Found 7-bit addsub for signal <$n0003>.
+    Found 7-bit comparator less for signal <$n0011> created at line 15.
+    Found 7-bit comparator greater for signal <$n0012> created at line 17.
+    Found 7-bit comparator less for signal <$n0013> created at line 24.
+    Found 7-bit comparator greater for signal <$n0014> created at line 26.
+    Found 14 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   2 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+	inferred  14 Multiplexer(s).
+Unit <CruiserView> synthesized.
+
+
+Synthesizing Unit <ClearBram>.
+    Related source file is ClearBram.v.
+Unit <ClearBram> synthesized.
+
+
+Synthesizing Unit <square_unit>.
+    Related source file is square_unit.v.
+    Found 13-bit adder for signal <$n0000> created at line 31.
+    Found 7-bit adder for signal <$n0002> created at line 34.
+    Found 7-bit adder for signal <$n0003> created at line 33.
+    Found 14-bit addsub for signal <$n0004>.
+    Found 14-bit addsub for signal <$n0006>.
+    Found 13-bit comparator greater for signal <$n0012> created at line 24.
+    Found 13-bit subtractor for signal <$n0023> created at line 24.
+    Found 7-bit comparator greater for signal <$n0024> created at line 48.
+    Found 7-bit comparator less for signal <$n0025> created at line 50.
+    Found 7-bit comparator greater for signal <$n0026> created at line 57.
+    Found 7-bit comparator less for signal <$n0027> created at line 59.
+    Found 28 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   6 Adder/Subtracter(s).
+	inferred   5 Comparator(s).
+	inferred  28 Multiplexer(s).
+Unit <square_unit> synthesized.
+
+
+Synthesizing Unit <depthcomp>.
+    Related source file is depthcomp.v.
+    Found 6-bit comparator less for signal <$n0000> created at line 9.
+    Found 6-bit comparator less for signal <$n0001> created at line 13.
+    Found 6-bit comparator less for signal <$n0002> created at line 17.
+    Summary:
+	inferred   3 Comparator(s).
+Unit <depthcomp> synthesized.
+
+
+Synthesizing Unit <edge_detect>.
+    Related source file is edge_detect.v.
+Unit <edge_detect> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is counter.v.
+    Found 4-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <slow_clk_1>.
+    Related source file is slow_clk.v.
+WARNING:Xst:646 - Signal <count<14:0>> is assigned but never used.
+Unit <slow_clk_1> synthesized.
+
+
+Synthesizing Unit <slow_clk>.
+    Related source file is slow_clk.v.
+WARNING:Xst:646 - Signal <count<17:0>> is assigned but never used.
+Unit <slow_clk> synthesized.
+
+
+Synthesizing Unit <DFF_4>.
+    Related source file is dff.v.
+    Found 10-bit register for signal <out>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <DFF_4> synthesized.
+
+
+Synthesizing Unit <gCounter>.
+    Related source file is gamepad.v.
+    Found 10-bit adder for signal <$n0000> created at line 52.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <gCounter> synthesized.
+
+
+Synthesizing Unit <Debounce>.
+    Related source file is gamepad.v.
+WARNING:Xst:646 - Signal <count<8:3>> is assigned but never used.
+WARNING:Xst:646 - Signal <count<1:0>> is assigned but never used.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Debounce> synthesized.
+
+
+Synthesizing Unit <Tunnel>.
+    Related source file is Tunnel.v.
+WARNING:Xst:646 - Signal <xval<0>> is assigned but never used.
+WARNING:Xst:646 - Signal <yout<3:0>> is assigned but never used.
+    Found 6-bit comparator greater for signal <$n0009> created at line 216.
+    Found 6-bit comparator greater for signal <$n0010> created at line 217.
+    Found 9-bit comparator greater for signal <$n0021> created at line 155.
+    Found 9-bit comparator less for signal <$n0022> created at line 154.
+    Found 4-bit comparator greater for signal <$n0023> created at line 153.
+    Found 9-bit comparator less for signal <$n0031> created at line 118.
+    Found 9-bit comparator less for signal <$n0034> created at line 117.
+    Found 9-bit comparator less for signal <$n0037> created at line 116.
+    Found 9-bit comparator less for signal <$n0040> created at line 115.
+    Found 2-bit comparator greater for signal <$n0042> created at line 221.
+    Found 21 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred  10 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <Tunnel> synthesized.
+
+
+Synthesizing Unit <DFF_3>.
+    Related source file is dff.v.
+    Found 2-bit register for signal <out>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DFF_3> synthesized.
+
+
+Synthesizing Unit <DFF_2>.
+    Related source file is dff.v.
+    Found 6-bit register for signal <out>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <DFF_2> synthesized.
+
+
+Synthesizing Unit <DFF_1>.
+    Related source file is dff.v.
+    Found 8-bit register for signal <out>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <DFF_1> synthesized.
+
+
+Synthesizing Unit <tcgrom>.
+    Related source file is TCGROM.V.
+Unit <tcgrom> synthesized.
+
+
+Synthesizing Unit <sync_gen50>.
+    Related source file is 50MHZ_VGA.V.
+    Found 1-bit register for signal <vga_v_sync>.
+    Found 1-bit register for signal <vga_h_sync>.
+    Found 11-bit up counter for signal <CounterX>.
+    Found 10-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <Valid>.
+    Found 11-bit comparator greatequal for signal <$n0006> created at line 39.
+    Found 11-bit comparator lessequal for signal <$n0007> created at line 39.
+    Found 11-bit comparator less for signal <$n0011> created at line 41.
+    Found 10-bit comparator less for signal <$n0012> created at line 41.
+    Found 1-bit register for signal <EnableCntY>.
+    Found 1-bit register for signal <ResetCntX>.
+    Found 1-bit register for signal <ResetCntY>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <sync_gen50> synthesized.
+
+
+Synthesizing Unit <Gamepad>.
+    Related source file is gamepad.v.
+Unit <Gamepad> synthesized.
+
+
+Synthesizing Unit <DFF>.
+    Related source file is dff.v.
+    Found 1-bit register for signal <out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF> synthesized.
+
+
+Synthesizing Unit <top_dog>.
+    Related source file is top_dog.v.
+WARNING:Xst:646 - Signal <X<0>> is assigned but never used.
+WARNING:Xst:1780 - Signal <skull_area> is never used or assigned.
+WARNING:Xst:646 - Signal <Valid> is assigned but never used.
+WARNING:Xst:646 - Signal <Xt<10:9>> is assigned but never used.
+WARNING:Xst:646 - Signal <Yt<9:7>> is assigned but never used.
+    Found 16x6-bit ROM for signal <$n0021>.
+    Found 10-bit comparator greater for signal <$n0025> created at line 250.
+    Found 10-bit comparator less for signal <$n0026> created at line 250.
+    Found 11-bit comparator greater for signal <$n0027> created at line 250.
+    Found 11-bit comparator less for signal <$n0028> created at line 250.
+    Found 10-bit comparator greater for signal <$n0029> created at line 249.
+    Found 10-bit comparator less for signal <$n0030> created at line 249.
+    Found 11-bit comparator greater for signal <$n0031> created at line 249.
+    Found 11-bit comparator less for signal <$n0032> created at line 249.
+    Found 10-bit comparator greater for signal <$n0033> created at line 245.
+    Found 10-bit comparator less for signal <$n0034> created at line 245.
+    Found 11-bit comparator greater for signal <$n0035> created at line 245.
+    Found 11-bit comparator less for signal <$n0036> created at line 245.
+    Found 11-bit comparator greater for signal <$n0037> created at line 239.
+    Found 11-bit comparator less for signal <$n0038> created at line 239.
+    Found 10-bit comparator greater for signal <$n0039> created at line 239.
+    Found 10-bit comparator less for signal <$n0040> created at line 239.
+    Found 11-bit comparator greater for signal <$n0043> created at line 239.
+    Found 11-bit comparator less for signal <$n0044> created at line 239.
+    Found 1-bit 8-to-1 multiplexer for signal <color>.
+    Found 11-bit subtractor for signal <Xt>.
+    Found 10-bit subtractor for signal <Yt>.
+    Found 45 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Adder/Subtracter(s).
+	inferred  18 Comparator(s).
+	inferred  46 Multiplexer(s).
+Unit <top_dog> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+  16x6-bit ROM                     : 1
+# Registers                        : 80
+  11-bit register                  : 1
+  4-bit register                   : 3
+  16-bit register                  : 1
+  19-bit register                  : 1
+  10-bit register                  : 6
+  2-bit register                   : 5
+  6-bit register                   : 5
+  8-bit register                   : 1
+  1-bit register                   : 35
+  7-bit register                   : 5
+  3-bit register                   : 2
+  9-bit register                   : 2
+  13-bit register                  : 5
+  14-bit register                  : 8
+# Counters                         : 2
+  11-bit up counter                : 1
+  10-bit up counter                : 1
+# Multiplexers                     : 33
+  2-to-1 multiplexer               : 32
+  1-bit 8-to-1 multiplexer         : 1
+# Adders/Subtractors               : 64
+  6-bit adder                      : 2
+  8-bit subtractor                 : 1
+  9-bit adder                      : 2
+  7-bit addsub                     : 2
+  13-bit adder                     : 5
+  7-bit adder                      : 9
+  14-bit addsub                    : 8
+  13-bit subtractor                : 4
+  4-bit adder                      : 7
+  10-bit adder                     : 6
+  10-bit subtractor                : 1
+  11-bit subtractor                : 1
+  9-bit subtractor                 : 10
+  3-bit adder                      : 4
+  16-bit adder                     : 1
+  19-bit adder                     : 1
+# Comparators                      : 319
+  13-bit comparator lessequal      : 128
+  13-bit comparator greater        : 132
+  7-bit comparator greatequal      : 1
+  7-bit comparator lessequal       : 1
+  6-bit comparator greatequal      : 1
+  6-bit comparator lessequal       : 1
+  7-bit comparator less            : 10
+  7-bit comparator greater         : 10
+  6-bit comparator less            : 3
+  6-bit comparator greater         : 2
+  9-bit comparator greater         : 1
+  9-bit comparator less            : 5
+  4-bit comparator greater         : 1
+  2-bit comparator greater         : 1
+  11-bit comparator greatequal     : 1
+  11-bit comparator lessequal      : 1
+  11-bit comparator less           : 6
+  10-bit comparator less           : 5
+  10-bit comparator greater        : 4
+  11-bit comparator greater        : 5
+# Xors                             : 1
+  1-bit xor5                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Launcher: "bram1.ngo" is up to date.
+Launcher: "bram2.ngo" is up to date.
+Loading core <bram1> for timing and area information for instance <childress>.
+Loading core <bram2> for timing and area information for instance <yao_ming>.
+WARNING:Xst:1291 - FF/Latch <Valid> is unconnected in block <syncVGA>.
+
+Optimizing unit <top_dog> ...
+
+Optimizing unit <tcgrom> ...
+
+Optimizing unit <depthcomp> ...
+
+Optimizing unit <Growth_LUT> ...
+
+Optimizing unit <sync_gen50> ...
+
+Optimizing unit <gCounter> ...
+
+Optimizing unit <CruiserView> ...
+
+Optimizing unit <SquareWriter> ...
+
+Optimizing unit <EdgeCalculator> ...
+
+Optimizing unit <LFSR> ...
+
+Optimizing unit <counter_1> ...
+
+Optimizing unit <counter_2> ...
+
+Optimizing unit <counter_3> ...
+
+Optimizing unit <counter_4> ...
+
+Optimizing unit <counter_5> ...
+
+Optimizing unit <Debounce> ...
+
+Optimizing unit <square_unit> ...
+
+Optimizing unit <ClearBram> ...
+
+Optimizing unit <PointWriter> ...
+
+Optimizing unit <Tunnel> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+WARNING:Xst:1710 - FF/Latch  <tcgrom_reg_out_7> (without init value) is constant in block <top_dog>.
+WARNING:Xst:1291 - FF/Latch <syncVGA_Valid> is unconnected in block <top_dog>.
+Building and optimizing final netlist ...
+Register vga_blue_reg_out_0 equivalent to vga_blue_reg_out_1 has been removed
+Register vga_green_reg_out_0 equivalent to vga_green_reg_out_1 has been removed
+Register vga_red_reg_out_0 equivalent to vga_red_reg_out_1 has been removed
+Found area constraint ratio of 100 (+ 5) on block top_dog, actual ratio is 121.
+Optimizing block <top_dog> to meet ratio 100 (+ 5) of 1200 slices :
+WARNING:Xst - Area constraint could not be met for block <top_dog>, final ratio is 110.
+WARNING:Xst:382 - Register BU57 is equivalent to BU12
+WARNING:Xst:382 - Register BU57 is equivalent to BU12
+FlipFlop vga_red_reg_out_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vga_green_reg_out_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vga_blue_reg_out_1 has been replicated 1 time(s) to handle iob=true attribute.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top_dog.ngr
+Top Level Output File Name         : top_dog
+Output Format                      : NGC
+Optimization Goal                  : Area
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 16
+
+Macro Statistics :
+# ROMs                             : 1
+#      16x6-bit ROM                : 1
+# Registers                        : 82
+#      1-bit register              : 35
+#      10-bit register             : 6
+#      11-bit register             : 1
+#      13-bit register             : 5
+#      14-bit register             : 8
+#      16-bit register             : 1
+#      19-bit register             : 1
+#      2-bit register              : 5
+#      3-bit register              : 2
+#      4-bit register              : 5
+#      6-bit register              : 5
+#      7-bit register              : 5
+#      8-bit register              : 1
+#      9-bit register              : 2
+# Multiplexers                     : 33
+#      1-bit 8-to-1 multiplexer    : 1
+#      2-to-1 multiplexer          : 32
+# Adders/Subtractors               : 61
+#      10-bit adder                : 6
+#      10-bit subtractor           : 1
+#      11-bit subtractor           : 1
+#      13-bit adder                : 5
+#      13-bit subtractor           : 4
+#      14-bit addsub               : 8
+#      16-bit adder                : 1
+#      19-bit adder                : 1
+#      4-bit adder                 : 9
+#      6-bit adder                 : 1
+#      7-bit adder                 : 9
+#      7-bit addsub                : 2
+#      8-bit subtractor            : 1
+#      9-bit adder                 : 2
+#      9-bit subtractor            : 10
+# Comparators                      : 318
+#      10-bit comparator greater   : 4
+#      10-bit comparator less      : 5
+#      11-bit comparator greatequal: 1
+#      11-bit comparator greater   : 5
+#      11-bit comparator less      : 6
+#      11-bit comparator lessequal : 1
+#      13-bit comparator greater   : 132
+#      13-bit comparator lessequal : 128
+#      4-bit comparator greater    : 1
+#      6-bit comparator greatequal : 1
+#      6-bit comparator greater    : 2
+#      6-bit comparator less       : 3
+#      6-bit comparator lessequal  : 1
+#      7-bit comparator greatequal : 1
+#      7-bit comparator greater    : 10
+#      7-bit comparator less       : 10
+#      7-bit comparator lessequal  : 1
+#      9-bit comparator greater    : 1
+#      9-bit comparator less       : 5
+# Xors                             : 1
+#      1-bit xor5                  : 1
+
+Cell Usage :
+# BELS                             : 3491
+#      BUF                         : 3
+#      GND                         : 3
+#      LUT1                        : 269
+#      LUT2                        : 325
+#      LUT3                        : 418
+#      LUT4                        : 1340
+#      MUXCY                       : 529
+#      MUXF5                       : 73
+#      MUXF6                       : 1
+#      VCC                         : 3
+#      XORCY                       : 527
+# FlipFlops/Latches                : 460
+#      FD                          : 13
+#      FDE                         : 343
+#      FDR                         : 49
+#      FDRE                        : 48
+#      FDS                         : 7
+# RAMS                             : 8
+#      RAMB4_S1_S1                 : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 7
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                    1348  out of   1200   112% (*) 
+ Number of Slice Flip Flops:           460  out of   2400    19%  
+ Number of 4 input LUTs:              2352  out of   2400    98%  
+ Number of bonded IOBs:                 15  out of     96    15%  
+ Number of BRAMs:                        8  out of     10    80%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 468   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 31.135ns (Maximum Frequency: 32.118MHz)
+   Minimum input arrival time before clock: 20.940ns
+   Maximum output required time after clock: 6.788ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clock'
+Delay:               31.135ns (Levels of Logic = 24)
+  Source:            TunnelCruiser_cview_y_reg_out_0 (FF)
+  Destination:       char_selection_reg_out_5 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: TunnelCruiser_cview_y_reg_out_0 to char_selection_reg_out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              9   1.085   1.908  TunnelCruiser_cview_y_reg_out_0 (TunnelCruiser_cview_y_reg_out_0)
+     LUT2:I1->O            1   0.549   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_lut2_1131 (TunnelCruiser_square2_trans1_Msub__n0000_inst_lut2_113)
+     MUXCY:S->O            1   0.659   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_113 (TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_113)
+     MUXCY:CI->O           1   0.042   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_114 (TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_114)
+     MUXCY:CI->O           1   0.042   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_115 (TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_115)
+     MUXCY:CI->O           1   0.042   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_116 (TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_116)
+     MUXCY:CI->O           1   0.042   0.000  TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_117 (TunnelCruiser_square2_trans1_Msub__n0000_inst_cy_117)
+     XORCY:CI->O           5   0.420   1.566  TunnelCruiser_square2_trans1_Msub__n0000_inst_sum_119 (TunnelCruiser_square2_trans1__n0000<5>)
+     LUT1:I0->O            1   0.549   0.000  TunnelCruiser_square2_trans1_Madd__n0002_inst_lut2_1221 (TunnelCruiser_square2_trans1_Madd__n0002_inst_lut2_122)
+     MUXCY:S->O            1   0.659   0.000  TunnelCruiser_square2_trans1_Madd__n0002_inst_cy_122 (TunnelCruiser_square2_trans1_Madd__n0002_inst_cy_122)
+     MUXCY:CI->O           1   0.042   0.000  TunnelCruiser_square2_trans1_Madd__n0002_inst_cy_123 (TunnelCruiser_square2_trans1_Madd__n0002_inst_cy_123)
+     XORCY:CI->O           4   0.420   1.440  TunnelCruiser_square2_trans1_Madd__n0002_inst_sum_125 (TunnelCruiser_yc2<7>)
+     LUT4:I0->O            1   0.549   1.035  TunnelCruiser_pantudepth_yreg<7>18 (CHOICE4141)
+     LUT4:I2->O            2   0.549   1.206  TunnelCruiser_pantudepth_yreg<7>40 (TunnelCruiser_yout<7>)
+     LUT2:I1->O            1   0.549   1.035  TunnelCruiser__n0072_SW0 (N73925)
+     LUT4:I3->O            3   0.549   1.332  TunnelCruiser__n0072 (arrow<0>)
+     LUT4:I0->O            5   0.549   1.566  _n00961 (_n0096)
+     LUT3:I2->O            4   0.549   1.440  Ker358761 (N35878)
+     LUT4:I2->O            1   0.549   1.035  Mmux_char_selection_Result<5>47 (CHOICE7524)
+     LUT4:I0->O            1   0.549   1.035  Mmux_char_selection_Result<5>52 (CHOICE7525)
+     LUT3:I0->O            1   0.549   1.035  Mmux_char_selection_Result<5>87_SW0 (N106759)
+     LUT4:I1->O            1   0.549   1.035  Mmux_char_selection_Result<5>87 (CHOICE7529)
+     LUT4:I3->O            1   0.549   1.035  Mmux_char_selection_Result<5>290_SW0_SW0 (N107887)
+     LUT4:I3->O            1   0.549   1.035  Mmux_char_selection_Result<5>290_SW0 (N106895)
+     LUT4:I3->O            1   0.549   0.000  Mmux_char_selection_Result<5>290 (char_selection<5>)
+     FDE:D                     0.709          char_selection_reg_out_5
+    ----------------------------------------
+    Total                     31.135ns (12.397ns logic, 18.738ns route)
+                                       (39.8% logic, 60.2% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+Offset:              20.940ns (Levels of Logic = 3)
+  Source:            resetn (PAD)
+  Destination:       TunnelCruiser_cview_x_reg_out_5 (FF)
+  Destination Clock: clock rising
+
+  Data Path: resetn to TunnelCruiser_cview_x_reg_out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            91   0.776   6.075  resetn_IBUF (resetn_IBUF)
+     BUF:I->O             92   0.549   6.120  resetn_IBUF_3 (resetn_IBUF_3)
+     LUT4:I0->O           89   0.549   5.985  TunnelCruiser_cview__n00001_1 (TunnelCruiser_cview__n00001_1)
+     FDE:CE                    0.886          TunnelCruiser_square4_ycenter_reg_out_9
+    ----------------------------------------
+    Total                     20.940ns (2.760ns logic, 18.180ns route)
+                                       (13.2% logic, 86.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+Offset:              6.788ns (Levels of Logic = 1)
+  Source:            vga_red_reg_out_1_1 (FF)
+  Destination:       vga_red0 (PAD)
+  Source Clock:      clock rising
+
+  Data Path: vga_red_reg_out_1_1 to vga_red0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   1.085   1.035  vga_red_reg_out_1_1 (vga_red_reg_out_1_1)
+     OBUF:I->O                 4.668          vga_red0_OBUF (vga_red0)
+    ----------------------------------------
+    Total                      6.788ns (5.753ns logic, 1.035ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+CPU : 45.09 / 45.58 s | Elapsed : 45.00 / 45.00 s
+ 
+--> 
+
+Total memory usage is 113940 kilobytes
+
+

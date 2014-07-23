@@ -1,0 +1,90 @@
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -i  -p xc2s100-tq144-6 Tunnel.ngc Tunnel.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o Tunnel_map.ncd Tunnel.ngd Tunnel.pcf
+par -w -intstyle ise -ol std -t 1 Tunnel_map.ncd Tunnel.ncd Tunnel.pcf
+trce -intstyle ise -e 3 -l 3 -xml Tunnel Tunnel.ncd -o Tunnel.twr Tunnel.pcf
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -i  -p xc2s100-tq144-6 Tunnel.ngc Tunnel.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o Tunnel_map.ncd Tunnel.ngd Tunnel.pcf
+par -w -intstyle ise -ol std -t 1 Tunnel_map.ncd Tunnel.ncd Tunnel.pcf
+trce -intstyle ise -e 3 -l 3 -xml Tunnel Tunnel.ncd -o Tunnel.twr Tunnel.pcf
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -i  -p xc2s100-tq144-6 Tunnel.ngc Tunnel.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o Tunnel_map.ncd Tunnel.ngd Tunnel.pcf
+par -w -intstyle ise -ol std -t 1 Tunnel_map.ncd Tunnel.ncd Tunnel.pcf
+trce -intstyle ise -e 3 -l 3 -xml Tunnel Tunnel.ncd -o Tunnel.twr Tunnel.pcf
+bitgen -intstyle ise -f Tunnel.ut Tunnel.ncd
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -i  -p xc2s100-tq144-6 Tunnel.ngc Tunnel.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o Tunnel_map.ncd Tunnel.ngd Tunnel.pcf
+par -w -intstyle ise -ol std -t 1 Tunnel_map.ncd Tunnel.ncd Tunnel.pcf
+trce -intstyle ise -e 3 -l 3 -xml Tunnel Tunnel.ncd -o Tunnel.twr Tunnel.pcf
+bitgen -intstyle ise -f Tunnel.ut Tunnel.ncd
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+xst -intstyle ise -ifn __projnav/Tunnel.xst -ofn Tunnel.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -i  -p xc2s100-tq144-6 Tunnel.ngc Tunnel.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o Tunnel_map.ncd Tunnel.ngd Tunnel.pcf
+par -w -intstyle ise -ol high -t 1 Tunnel_map.ncd Tunnel.ncd Tunnel.pcf
+trce -intstyle ise -e 3 -l 3 -xml Tunnel Tunnel.ncd -o Tunnel.twr Tunnel.pcf
+bitgen -intstyle ise -f Tunnel.ut Tunnel.ncd

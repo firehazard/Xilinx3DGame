@@ -1,0 +1,149 @@
+Release 6.1.03i Par G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+TDEANECOMPUTER::  Wed Mar 10 19:29:06 2004
+
+
+C:/Xilinx/bin/nt/par.exe -w -intstyle ise -ol high -t 1 top_dog_map.ncd
+top_dog.ncd top_dog.pcf 
+
+
+Constraints file: top_dog.pcf
+
+Loading device database for application Par from file "top_dog_map.ncd".
+   "top_dog" is an NCD, version 2.38, device xc2s100, package tq144, speed -6
+Loading device for application Par from file 'v100.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-11-04.
+
+
+Resolved that GCLKIOB <clock> must be placed at site P88.
+Resolved that IOB <left_in> must be placed at site P56.
+Resolved that IOB <vga_blue0> must be placed at site P21.
+Resolved that IOB <vga_blue1> must be placed at site P22.
+Resolved that IOB <down_in> must be placed at site P27.
+Resolved that IOB <up_in> must be placed at site P28.
+Resolved that IOB <vga_hsync> must be placed at site P23.
+Resolved that IOB <vga_red0> must be placed at site P12.
+Resolved that IOB <vga_red1> must be placed at site P13.
+Resolved that IOB <right_in> must be placed at site P54.
+Resolved that IOB <a_b> must be placed at site P64.
+Resolved that IOB <vga_vsync> must be placed at site P26.
+Resolved that IOB <c_start> must be placed at site P63.
+Resolved that IOB <resetn> must be placed at site P78.
+Resolved that IOB <vga_green0> must be placed at site P19.
+Resolved that IOB <vga_green1> must be placed at site P20.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs            15 out of 92     16%
+      Number of LOCed External IOBs   15 out of 15    100%
+
+   Number of BLOCKRAMs                 8 out of 10     80%
+   Number of SLICEs                 1198 out of 1200   99%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   High (set by user)
+Placer effort level (-pl):    High (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98cbb5) REAL time: 2 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 2 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 2 secs 
+
+Phase 5.8
+..................................................
+..............................
+..................................................
+..............................
+..............................
+Phase 5.8 (Checksum:d57a7c) REAL time: 1 mins 53 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 1 mins 53 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 1 mins 57 secs 
+
+Writing design to file top_dog.ncd.
+
+Total REAL time to Placer completion: 1 mins 57 secs 
+Total CPU time to Placer completion: 1 mins 56 secs 
+
+
+Phase 1: 8701 unrouted;       REAL time: 1 mins 57 secs 
+
+Phase 2: 8367 unrouted;       REAL time: 1 mins 58 secs 
+
+Phase 3: 3076 unrouted;       REAL time: 1 mins 59 secs 
+
+Phase 4: 3076 unrouted; (0)      REAL time: 1 mins 59 secs 
+
+Phase 5: 3076 unrouted; (0)      REAL time: 1 mins 59 secs 
+
+Phase 6: 0 unrouted; (0)      REAL time: 2 mins 1 secs 
+
+Total REAL time to Router completion: 2 mins 3 secs 
+Total CPU time to Router completion: 2 mins 1 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|       clock_BUFGP          |  Global  |  331   |  0.338     |  0.472      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 285
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.726
+   The MAXIMUM PIN DELAY IS:                               6.181
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   5.601
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 7.00  d >= 7.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        2489        2770        2288         923         231           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 mins 3 secs 
+Total CPU time to PAR completion: 2 mins 2 secs 
+
+Peak Memory Usage:  63 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file top_dog.ncd.
+
+
+PAR done.

@@ -1,0 +1,318 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: sync_gen50.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : sync_gen50.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : sync_gen50
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : sync_gen50
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Area
+Optimization Effort                : 2
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : sync_gen50.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "50MHZ_VGA.V"
+Module <sync_gen50> compiled
+No errors in compilation
+Analysis of file <sync_gen50.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sync_gen50>.
+Module <sync_gen50> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sync_gen50>.
+    Related source file is 50MHZ_VGA.V.
+    Found 1-bit register for signal <vga_v_sync>.
+    Found 1-bit register for signal <vga_h_sync>.
+    Found 11-bit up counter for signal <CounterX>.
+    Found 10-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <Valid>.
+    Found 11-bit comparator greatequal for signal <$n0006> created at line 39.
+    Found 11-bit comparator lessequal for signal <$n0007> created at line 39.
+    Found 11-bit comparator less for signal <$n0011> created at line 41.
+    Found 10-bit comparator less for signal <$n0012> created at line 41.
+    Found 1-bit register for signal <EnableCntY>.
+    Found 1-bit register for signal <ResetCntX>.
+    Found 1-bit register for signal <ResetCntY>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <sync_gen50> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 6
+  1-bit register                   : 6
+# Counters                         : 2
+  11-bit up counter                : 1
+  10-bit up counter                : 1
+# Comparators                      : 4
+  11-bit comparator greatequal     : 1
+  11-bit comparator lessequal      : 1
+  11-bit comparator less           : 1
+  10-bit comparator less           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sync_gen50> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sync_gen50, actual ratio is 2.
+FlipFlop CounterX_10 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_9 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_8 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterX_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_9 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_8 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop CounterY_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sync_gen50.ngr
+Top Level Output File Name         : sync_gen50
+Output Format                      : NGC
+Optimization Goal                  : Area
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 25
+
+Macro Statistics :
+# Registers                        : 8
+#      1-bit register              : 6
+#      11-bit register             : 2
+# Adders/Subtractors               : 2
+#      11-bit adder                : 2
+# Comparators                      : 4
+#      10-bit comparator less      : 1
+#      11-bit comparator greatequal: 1
+#      11-bit comparator less      : 1
+#      11-bit comparator lessequal : 1
+
+Cell Usage :
+# BELS                             : 85
+#      GND                         : 1
+#      LUT1                        : 21
+#      LUT2                        : 1
+#      LUT3                        : 8
+#      LUT4                        : 14
+#      MUXCY                       : 19
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 48
+#      FD                          : 2
+#      FDR                         : 24
+#      FDRE                        : 20
+#      FDS                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      OBUF                        : 24
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                      29  out of   1200     2%  
+ Number of Slice Flip Flops:            48  out of   2400     2%  
+ Number of 4 input LUTs:                44  out of   2400     1%  
+ Number of bonded IOBs:                 24  out of     96    25%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 48    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 8.931ns (Maximum Frequency: 111.970MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.788ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               8.931ns (Levels of Logic = 4)
+  Source:            CounterX_5 (FF)
+  Destination:       Valid (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: CounterX_5 to Valid
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   1.085   1.665  CounterX_5 (CounterX_5)
+     LUT4:I1->O            2   0.549   1.206  Ker14561 (N1458)
+     LUT3:I0->O            1   0.549   1.035  _n000511 (CHOICE360)
+     LUT4:I3->O            1   0.549   1.035  _n000516 (CHOICE361)
+     LUT4:I2->O            1   0.549   0.000  _n000580 (N3791)
+     FD:D                      0.709          Valid
+    ----------------------------------------
+    Total                      8.931ns (3.990ns logic, 4.941ns route)
+                                       (44.7% logic, 55.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.788ns (Levels of Logic = 1)
+  Source:            vga_v_sync (FF)
+  Destination:       vga_v_sync (PAD)
+  Source Clock:      clk rising
+
+  Data Path: vga_v_sync to vga_v_sync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              1   1.085   1.035  vga_v_sync (vga_v_sync_OBUF)
+     OBUF:I->O                 4.668          vga_v_sync_OBUF (vga_v_sync)
+    ----------------------------------------
+    Total                      6.788ns (5.753ns logic, 1.035ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+CPU : 2.55 / 3.03 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 55508 kilobytes
+
+

@@ -1,0 +1,1574 @@
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiserlab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol std -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd z:\tcruiserb/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate4/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate4/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate4/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate4/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+xst -intstyle ise -ifn __projnav/top_dog.xst -ofn top_dog.syr
+ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o top_dog_map.ncd top_dog.ngd top_dog.pcf
+par -w -intstyle ise -ol high -t 1 top_dog_map.ncd top_dog.ncd top_dog.pcf
+trce -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o top_dog.twr top_dog.pcf
+bitgen -intstyle ise -f top_dog.ut top_dog.ncd

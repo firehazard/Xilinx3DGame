@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+Release 6.1.03i Trace G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml sync_gen50
+sync_gen50.ncd -o sync_gen50.twr sync_gen50.pcf
+
+
+Design file:              sync_gen50.ncd
+Physical constraint file: sync_gen50.pcf
+Device,speed:             xc2s100,-6 (PRODUCTION 1.27 2003-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+CounterX<0> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterX<10>|    6.417(R)|clk_BUFGP         |   0.000|
+CounterX<1> |    6.382(R)|clk_BUFGP         |   0.000|
+CounterX<2> |    6.369(R)|clk_BUFGP         |   0.000|
+CounterX<3> |    6.385(R)|clk_BUFGP         |   0.000|
+CounterX<4> |    6.336(R)|clk_BUFGP         |   0.000|
+CounterX<5> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterX<6> |    6.336(R)|clk_BUFGP         |   0.000|
+CounterX<7> |    6.345(R)|clk_BUFGP         |   0.000|
+CounterX<8> |    6.336(R)|clk_BUFGP         |   0.000|
+CounterX<9> |    6.345(R)|clk_BUFGP         |   0.000|
+CounterY<0> |    6.336(R)|clk_BUFGP         |   0.000|
+CounterY<1> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterY<2> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterY<3> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterY<4> |    6.371(R)|clk_BUFGP         |   0.000|
+CounterY<5> |    6.345(R)|clk_BUFGP         |   0.000|
+CounterY<6> |    6.385(R)|clk_BUFGP         |   0.000|
+CounterY<7> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterY<8> |    6.417(R)|clk_BUFGP         |   0.000|
+CounterY<9> |    6.381(R)|clk_BUFGP         |   0.000|
+Valid       |    6.371(R)|clk_BUFGP         |   0.000|
+vga_h_sync  |    6.370(R)|clk_BUFGP         |   0.000|
+vga_v_sync  |    6.382(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.422|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Tue Mar 09 21:35:13 2004
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 44 MB

@@ -1,0 +1,123 @@
+Release 6.1.03i Par G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+TDEANECOMPUTER::  Wed Mar 03 14:11:33 2004
+
+
+C:/Xilinx/bin/nt/par.exe -w -intstyle ise -ol std -t 1 PointWriter_map.ncd
+PointWriter.ncd PointWriter.pcf 
+
+
+Constraints file: PointWriter.pcf
+
+Loading device database for application Par from file "PointWriter_map.ncd".
+   "PointWriter" is an NCD, version 2.38, device xc2s100, package tq144, speed
+-6
+Loading device for application Par from file 'v100.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-11-04.
+
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs            47 out of 92     51%
+      Number of LOCed External IOBs    0 out of 47      0%
+
+   Number of SLICEs                   52 out of 1200    4%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:989883) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:9a7904) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file PointWriter.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 332 unrouted;       REAL time: 0 secs 
+
+Phase 2: 325 unrouted;       REAL time: 0 secs 
+
+Phase 3: 71 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|       clock_BUFGP          |  Global  |    7   |  0.070     |  0.486      |
++----------------------------+----------+--------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 214
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.502
+   The MAXIMUM PIN DELAY IS:                               5.190
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   3.194
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+         112         159          20          27          14           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  46 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file PointWriter.ncd.
+
+
+PAR done.

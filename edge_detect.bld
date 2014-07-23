@@ -1,0 +1,21 @@
+Release 6.1.03i - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -i -p
+xc2s100-tq144-6 edge_detect.ngc edge_detect.ngd 
+
+Reading NGO file "C:/EE108a/TCruiserBLab/edge_detect.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 36792 kilobytes
+
+Writing NGD file "edge_detect.ngd" ...
+
+Writing NGDBUILD log file "edge_detect.bld"...

@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn __projnav/tcgrom.xst -ofn tcgrom.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelcruiser/_ngo -i  -p xc2s100-tq144-6 tcgrom.ngc tcgrom.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o tcgrom_map.ncd tcgrom.ngd tcgrom.pcf
+par -w -intstyle ise -ol high -t 1 tcgrom_map.ncd tcgrom.ncd tcgrom.pcf
+trce -intstyle ise -e 3 -l 3 -xml tcgrom tcgrom.ncd -o tcgrom.twr tcgrom.pcf
+bitgen -intstyle ise -f tcgrom.ut tcgrom.ncd
+xst -intstyle ise -ifn __projnav/tcgrom.xst -ofn tcgrom.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -i  -p xc2s100-tq144-6 tcgrom.ngc tcgrom.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o tcgrom_map.ncd tcgrom.ngd tcgrom.pcf
+par -w -intstyle ise -ol high -t 1 tcgrom_map.ncd tcgrom.ncd tcgrom.pcf
+trce -intstyle ise -e 3 -l 3 -xml tcgrom tcgrom.ncd -o tcgrom.twr tcgrom.pcf
+bitgen -intstyle ise -f tcgrom.ut tcgrom.ncd
+xst -intstyle ise -ifn __projnav/tcgrom.xst -ofn tcgrom.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -i  -p xc2s100-tq144-6 tcgrom.ngc tcgrom.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o tcgrom_map.ncd tcgrom.ngd tcgrom.pcf
+par -w -intstyle ise -ol high -t 1 tcgrom_map.ncd tcgrom.ncd tcgrom.pcf
+trce -intstyle ise -e 3 -l 3 -xml tcgrom tcgrom.ncd -o tcgrom.twr tcgrom.pcf
+bitgen -intstyle ise -f tcgrom.ut tcgrom.ncd

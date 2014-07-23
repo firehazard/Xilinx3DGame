@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/EdgeCalculator.xst -ofn EdgeCalculator.syr

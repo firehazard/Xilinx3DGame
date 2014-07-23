@@ -1,0 +1,16 @@
+verilog work 50MHZ_VGA.V
+verilog work TCGROM.V
+verilog work dffre.v
+verilog work counter.v
+verilog work dff.v
+verilog work Growth_LUT.v
+verilog work square_unit.v
+verilog work ClearBram.v
+verilog work CruiserView.v
+verilog work CoordTrans.v
+verilog work SquareWriter.v
+verilog work EdgeCalculator.v
+verilog work PointWriter.v
+verilog work MaskGen.v
+verilog work Tunnel.v
+verilog work vga_cruiser_top.v

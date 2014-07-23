@@ -1,0 +1,410 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: PointWriter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : PointWriter.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : PointWriter
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : PointWriter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : PointWriter.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "dffre.v"
+Module <dffre> compiled
+Compiling source file "counter.v"
+Module <counter> compiled
+Compiling source file "PointWriter.v"
+Module <PointWriter> compiled
+No errors in compilation
+Analysis of file <PointWriter.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <PointWriter>.
+Module <PointWriter> is correct for synthesis.
+ 
+Analyzing module <counter>.
+Module <counter> is correct for synthesis.
+ 
+Analyzing module <dffre>.
+Module <dffre> is correct for synthesis.
+ 
+Analyzing module <counter_1>.
+Module <counter_1> is correct for synthesis.
+ 
+Analyzing module <dffre_1>.
+Module <dffre_1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <dffre_1>.
+    Related source file is dffre.v.
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <dffre_1> synthesized.
+
+
+Synthesizing Unit <dffre>.
+    Related source file is dffre.v.
+    Found 7-bit register for signal <q>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <dffre> synthesized.
+
+
+Synthesizing Unit <counter_1>.
+    Related source file is counter.v.
+    Found 6-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_1> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is counter.v.
+    Found 7-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <PointWriter>.
+    Related source file is PointWriter.v.
+    Found 7-bit comparator greatequal for signal <$n0003> created at line 29.
+    Found 7-bit comparator lessequal for signal <$n0004> created at line 29.
+    Found 6-bit comparator greatequal for signal <$n0008> created at line 34.
+    Found 6-bit comparator lessequal for signal <$n0009> created at line 34.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <PointWriter> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+  6-bit register                   : 1
+  7-bit register                   : 1
+# Adders/Subtractors               : 2
+  6-bit adder                      : 1
+  7-bit adder                      : 1
+# Comparators                      : 4
+  7-bit comparator greatequal      : 1
+  7-bit comparator lessequal       : 1
+  6-bit comparator greatequal      : 1
+  6-bit comparator lessequal       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PointWriter> ...
+
+Optimizing unit <counter> ...
+
+Optimizing unit <counter_1> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PointWriter, actual ratio is 4.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PointWriter.ngr
+Top Level Output File Name         : PointWriter
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 48
+
+Macro Statistics :
+# Registers                        : 2
+#      6-bit register              : 1
+#      7-bit register              : 1
+# Adders/Subtractors               : 2
+#      6-bit adder                 : 1
+#      7-bit adder                 : 1
+# Comparators                      : 4
+#      6-bit comparator greatequal : 1
+#      6-bit comparator lessequal  : 1
+#      7-bit comparator greatequal : 1
+#      7-bit comparator lessequal  : 1
+
+Cell Usage :
+# BELS                             : 148
+#      GND                         : 1
+#      LUT1                        : 13
+#      LUT2                        : 6
+#      LUT2_L                      : 26
+#      LUT3_L                      : 13
+#      LUT4                        : 35
+#      LUT4_D                      : 1
+#      LUT4_L                      : 4
+#      MUXCY                       : 37
+#      VCC                         : 1
+#      XORCY                       : 11
+# FlipFlops/Latches                : 13
+#      FDRE                        : 13
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 47
+#      IBUF                        : 31
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                      55  out of   1200     4%  
+ Number of Slice Flip Flops:            13  out of   2400     0%  
+ Number of 4 input LUTs:                98  out of   2400     4%  
+ Number of bonded IOBs:                 47  out of     96    48%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 13    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 11.607ns (Maximum Frequency: 86.155MHz)
+   Minimum input arrival time before clock: 10.839ns
+   Maximum output required time after clock: 14.026ns
+   Maximum combinational path delay: 13.258ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clock'
+Delay:               11.607ns (Levels of Logic = 10)
+  Source:            y_counter_count_reg_q_0 (FF)
+  Destination:       x_counter_count_reg_q_5 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: y_counter_count_reg_q_0 to x_counter_count_reg_q_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   1.085   1.665  y_counter_count_reg_q_0 (y_counter_count_reg_q_0)
+     LUT2_L:I1->LO         1   0.549   0.000  Mcompar__n0008_inst_lut2_61 (Mcompar__n0008_inst_lut2_6)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0008_inst_cy_6 (Mcompar__n0008_inst_cy_6)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_7 (Mcompar__n0008_inst_cy_7)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_8 (Mcompar__n0008_inst_cy_8)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_9 (Mcompar__n0008_inst_cy_9)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_10 (Mcompar__n0008_inst_cy_10)
+     MUXCY:CI->O           8   0.042   1.845  Mcompar__n0008_inst_cy_11 (Mcompar__n0008_inst_cy_11)
+     LUT4:I0->O            2   0.549   1.206  Ker1572_SW0 (N2639)
+     LUT4_L:I0->LO         1   0.549   0.100  Ker1572_SW1 (N2829)
+     LUT4:I3->O            7   0.549   1.755  enablex1 (enablex)
+     FDRE:CE                   0.886          x_counter_count_reg_q_0
+    ----------------------------------------
+    Total                     11.607ns (5.036ns logic, 6.571ns route)
+                                       (43.4% logic, 56.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+Offset:              10.839ns (Levels of Logic = 11)
+  Source:            ystart<0> (PAD)
+  Destination:       x_counter_count_reg_q_5 (FF)
+  Destination Clock: clock rising
+
+  Data Path: ystart<0> to x_counter_count_reg_q_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.776   1.206  ystart_0_IBUF (ystart_0_IBUF)
+     LUT2_L:I0->LO         1   0.549   0.000  Mcompar__n0008_inst_lut2_61 (Mcompar__n0008_inst_lut2_6)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0008_inst_cy_6 (Mcompar__n0008_inst_cy_6)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_7 (Mcompar__n0008_inst_cy_7)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_8 (Mcompar__n0008_inst_cy_8)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_9 (Mcompar__n0008_inst_cy_9)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0008_inst_cy_10 (Mcompar__n0008_inst_cy_10)
+     MUXCY:CI->O           8   0.042   1.845  Mcompar__n0008_inst_cy_11 (Mcompar__n0008_inst_cy_11)
+     LUT4:I0->O            2   0.549   1.206  Ker1572_SW0 (N2639)
+     LUT4_L:I0->LO         1   0.549   0.100  Ker1572_SW1 (N2829)
+     LUT4:I3->O            7   0.549   1.755  enablex1 (enablex)
+     FDRE:CE                   0.886          x_counter_count_reg_q_0
+    ----------------------------------------
+    Total                     10.839ns (4.727ns logic, 6.112ns route)
+                                       (43.6% logic, 56.4% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+Offset:              14.026ns (Levels of Logic = 11)
+  Source:            x_counter_count_reg_q_0 (FF)
+  Destination:       pvalid (PAD)
+  Source Clock:      clock rising
+
+  Data Path: x_counter_count_reg_q_0 to pvalid
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   1.085   1.665  x_counter_count_reg_q_0 (x_counter_count_reg_q_0)
+     LUT2_L:I0->LO         1   0.549   0.000  Mcompar__n0004_inst_lut2_191 (Mcompar__n0004_inst_lut2_19)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0004_inst_cy_19 (Mcompar__n0004_inst_cy_19)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0004_inst_cy_20 (Mcompar__n0004_inst_cy_20)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0004_inst_cy_21 (Mcompar__n0004_inst_cy_21)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0004_inst_cy_22 (Mcompar__n0004_inst_cy_22)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0004_inst_cy_23 (Mcompar__n0004_inst_cy_23)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0004_inst_cy_24 (Mcompar__n0004_inst_cy_24)
+     MUXCY:CI->O          10   0.042   1.980  Mcompar__n0004_inst_cy_25 (Mcompar__n0004_inst_cy_25)
+     LUT4:I3->O            1   0.549   1.035  xval1<5>6 (CHOICE4)
+     LUT4:I3->O            1   0.549   1.035  xval1<5>15 (xval_5_OBUF)
+     OBUF:I->O                 4.668          xval_5_OBUF (xval<5>)
+    ----------------------------------------
+    Total                     14.026ns (8.311ns logic, 5.715ns route)
+                                       (59.3% logic, 40.7% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               13.258ns (Levels of Logic = 12)
+  Source:            xstart<0> (PAD)
+  Destination:       pvalid (PAD)
+
+  Data Path: xstart<0> to pvalid
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.776   1.206  xstart_0_IBUF (xstart_0_IBUF)
+     LUT2_L:I0->LO         1   0.549   0.000  Mcompar__n0003_inst_lut2_121 (Mcompar__n0003_inst_lut2_12)
+     MUXCY:S->O            1   0.659   0.000  Mcompar__n0003_inst_cy_12 (Mcompar__n0003_inst_cy_12)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0003_inst_cy_13 (Mcompar__n0003_inst_cy_13)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0003_inst_cy_14 (Mcompar__n0003_inst_cy_14)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0003_inst_cy_15 (Mcompar__n0003_inst_cy_15)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0003_inst_cy_16 (Mcompar__n0003_inst_cy_16)
+     MUXCY:CI->O           1   0.042   0.000  Mcompar__n0003_inst_cy_17 (Mcompar__n0003_inst_cy_17)
+     MUXCY:CI->O          10   0.042   1.980  Mcompar__n0003_inst_cy_18 (Mcompar__n0003_inst_cy_18)
+     LUT4:I1->O            1   0.549   1.035  xval1<5>6 (CHOICE4)
+     LUT4:I3->O            1   0.549   1.035  xval1<5>15 (xval_5_OBUF)
+     OBUF:I->O                 4.668          xval_5_OBUF (xval<5>)
+    ----------------------------------------
+    Total                     13.258ns (8.002ns logic, 5.256ns route)
+                                       (60.4% logic, 39.6% route)
+
+=========================================================================
+CPU : 2.69 / 3.17 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 55508 kilobytes
+
+

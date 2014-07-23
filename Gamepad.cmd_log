@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn __projnav/Gamepad.xst -ofn Gamepad.syr

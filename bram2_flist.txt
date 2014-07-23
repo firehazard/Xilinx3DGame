@@ -1,0 +1,10 @@
+# Output products list for <bram2>
+bram2.asy
+bram2.edn
+bram2.v
+bram2.veo
+bram2.vhd
+bram2.vho
+bram2.xco
+bram2.xcp
+bram2.sym

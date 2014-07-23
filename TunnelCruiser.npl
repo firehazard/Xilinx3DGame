@@ -1,0 +1,49 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT TunnelCruiser
+DESIGN tunnelcruiser
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s100
+DEVICETIME 0
+DEVPKG tq144
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Other
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL Verilog
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE 50MHZ_VGA.V
+SOURCE counter.v
+SOURCE dff.v
+SOURCE dffre.v
+SOURCE Growth_LUT.v
+SOURCE square_unit.v
+SOURCE Tunnel.v
+SOURCE SquareWriter.v
+SOURCE ClearBram.v
+SOURCE CruiserView.v
+SOURCE CoordTrans.v
+SOURCE EdgeCalculator.v
+SOURCE PointWriter.v
+SOURCE top_dog.v
+SOURCE bram1.xco
+SOURCE bram2.xco
+SOURCE gamepad.v
+SOURCE lfsr.v
+SOURCE slow_clk.v
+SOURCE edge_detect.v
+SOURCE TCGROM.V
+SOURCE depthcomp.v
+DEPASSOC top_dog vga_cruiser.ucf
+[Normal]
+xilxPAReffortLevel=xstvlg, spartan2, Implementation.t_placeAndRouteDes, 1078453529, High
+_SynthOpt=xstvlg, spartan2, Schematic.t_synthesize, 1078743788, Area
+_SynthOptEffort=xstvlg, spartan2, Schematic.t_synthesize, 1078352902, High
+[STRATEGY-LIST]
+Normal=True

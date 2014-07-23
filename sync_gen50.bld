@@ -1,0 +1,21 @@
+Release 6.1.03i - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\ee108a\tunnelvga/_ngo -i -p
+xc2s100-tq144-6 sync_gen50.ngc sync_gen50.ngd 
+
+Reading NGO file "C:/EE108a/TunnelVga/sync_gen50.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 36792 kilobytes
+
+Writing NGD file "sync_gen50.ngd" ...
+
+Writing NGDBUILD log file "sync_gen50.bld"...

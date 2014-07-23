@@ -1,0 +1,281 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.25 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: edge_detect.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : edge_detect.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : edge_detect
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : edge_detect
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 2
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : edge_detect.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "dff.v"
+Compiling source file "edge_detect.v"
+Module <DFF> compiled
+Module <edge_detect> compiled
+No errors in compilation
+Analysis of file <edge_detect.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <edge_detect>.
+Module <edge_detect> is correct for synthesis.
+ 
+Analyzing module <DFF>.
+Module <DFF> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DFF>.
+    Related source file is dff.v.
+    Found 1-bit register for signal <out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF> synthesized.
+
+
+Synthesizing Unit <edge_detect>.
+    Related source file is edge_detect.v.
+Unit <edge_detect> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  1-bit register                   : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <edge_detect> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block edge_detect, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : edge_detect.ngr
+Top Level Output File Name         : edge_detect
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 3
+
+Macro Statistics :
+# Registers                        : 1
+#      1-bit register              : 1
+
+Cell Usage :
+# BELS                             : 1
+#      LUT2                        : 1
+# FlipFlops/Latches                : 1
+#      FD                          : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                       1  out of   1200     0%  
+ Number of Slice Flip Flops:             1  out of   2400     0%  
+ Number of 4 input LUTs:                 1  out of   2400     0%  
+ Number of bonded IOBs:                  2  out of     96     2%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.691ns
+   Maximum output required time after clock: 8.372ns
+   Maximum combinational path delay: 8.234ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              2.691ns (Levels of Logic = 1)
+  Source:            in (PAD)
+  Destination:       dff1_out_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: in to dff1_out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.776   1.206  in_IBUF (in_IBUF)
+     FD:D                      0.709          dff1_out_0
+    ----------------------------------------
+    Total                      2.691ns (1.485ns logic, 1.206ns route)
+                                       (55.2% logic, 44.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              8.372ns (Levels of Logic = 2)
+  Source:            dff1_out_0 (FF)
+  Destination:       out (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dff1_out_0 to out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   1.085   1.035  dff1_out_0 (dff1_out_0)
+     LUT2:I1->O            1   0.549   1.035  out1 (out_OBUF)
+     OBUF:I->O                 4.668          out_OBUF (out)
+    ----------------------------------------
+    Total                      8.372ns (6.302ns logic, 2.070ns route)
+                                       (75.3% logic, 24.7% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               8.234ns (Levels of Logic = 3)
+  Source:            in (PAD)
+  Destination:       out (PAD)
+
+  Data Path: in to out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.776   1.206  in_IBUF (in_IBUF)
+     LUT2:I0->O            1   0.549   1.035  out1 (out_OBUF)
+     OBUF:I->O                 4.668          out_OBUF (out)
+    ----------------------------------------
+    Total                      8.234ns (5.993ns logic, 2.241ns route)
+                                       (72.8% logic, 27.2% route)
+
+=========================================================================
+CPU : 2.11 / 2.59 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 54484 kilobytes
+
+

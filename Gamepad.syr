@@ -1,0 +1,351 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: Gamepad.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : Gamepad.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : Gamepad
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : Gamepad
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : Gamepad.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "dff.v"
+Compiling source file "gamepad.v"
+Module <DFF> compiled
+Module <Debounce> compiled
+Module <Gamepad> compiled
+Module <gCounter> compiled
+No errors in compilation
+Analysis of file <Gamepad.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Gamepad>.
+Module <Gamepad> is correct for synthesis.
+ 
+Analyzing module <Debounce>.
+Module <Debounce> is correct for synthesis.
+ 
+Analyzing module <gCounter>.
+Module <gCounter> is correct for synthesis.
+ 
+Analyzing module <DFF_1>.
+Module <DFF_1> is correct for synthesis.
+ 
+Analyzing module <DFF>.
+Module <DFF> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DFF_1>.
+    Related source file is dff.v.
+    Found 10-bit register for signal <out>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <DFF_1> synthesized.
+
+
+Synthesizing Unit <DFF>.
+    Related source file is dff.v.
+    Found 1-bit register for signal <out<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFF> synthesized.
+
+
+Synthesizing Unit <gCounter>.
+    Related source file is gamepad.v.
+    Found 10-bit adder for signal <$n0000> created at line 52.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <gCounter> synthesized.
+
+
+Synthesizing Unit <Debounce>.
+    Related source file is gamepad.v.
+WARNING:Xst:646 - Signal <count<8:3>> is assigned but never used.
+WARNING:Xst:646 - Signal <count<1:0>> is assigned but never used.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Debounce> synthesized.
+
+
+Synthesizing Unit <Gamepad>.
+    Related source file is gamepad.v.
+Unit <Gamepad> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+  10-bit register                  : 6
+  1-bit register                   : 12
+# Multiplexers                     : 6
+  2-to-1 multiplexer               : 6
+# Adders/Subtractors               : 6
+  10-bit adder                     : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Gamepad> ...
+
+Optimizing unit <gCounter> ...
+
+Optimizing unit <Debounce> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Gamepad, actual ratio is 6.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Gamepad.ngr
+Top Level Output File Name         : Gamepad
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 14
+
+Macro Statistics :
+# Registers                        : 18
+#      1-bit register              : 12
+#      10-bit register             : 6
+# Multiplexers                     : 6
+#      2-to-1 multiplexer          : 6
+# Adders/Subtractors               : 6
+#      10-bit adder                : 6
+
+Cell Usage :
+# BELS                             : 248
+#      GND                         : 1
+#      LUT1_L                      : 60
+#      LUT3                        : 6
+#      LUT4                        : 12
+#      LUT4_D                      : 6
+#      LUT4_L                      : 54
+#      MUXCY                       : 54
+#      VCC                         : 1
+#      XORCY                       : 54
+# FlipFlops/Latches                : 72
+#      FDE                         : 72
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 7
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                      81  out of   1200     6%  
+ Number of Slice Flip Flops:            72  out of   2400     3%  
+ Number of 4 input LUTs:               138  out of   2400     5%  
+ Number of bonded IOBs:                 13  out of     96    13%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 72    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 7.418ns (Maximum Frequency: 134.807MHz)
+   Minimum input arrival time before clock: 9.609ns
+   Maximum output required time after clock: 6.959ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk'
+Delay:               7.418ns (Levels of Logic = 10)
+  Source:            switch6_delay_count_reg_out_2 (FF)
+  Destination:       switch6_delay_count_reg_out_9 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: switch6_delay_count_reg_out_2 to switch6_delay_count_reg_out_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             12   1.085   2.160  switch6_delay_count_reg_out_2 (switch6_delay_count_reg_out_2)
+     LUT1_L:I0->LO         1   0.549   0.000  switch6_count<2>_rt (switch6_count<2>_rt)
+     MUXCY:S->O            1   0.659   0.000  switch6_delay_Madd__n0000_inst_cy_2 (switch6_delay_Madd__n0000_inst_cy_2)
+     MUXCY:CI->O           1   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_3 (switch6_delay_Madd__n0000_inst_cy_3)
+     MUXCY:CI->O           1   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_4 (switch6_delay_Madd__n0000_inst_cy_4)
+     MUXCY:CI->O           1   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_5 (switch6_delay_Madd__n0000_inst_cy_5)
+     MUXCY:CI->O           1   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_6 (switch6_delay_Madd__n0000_inst_cy_6)
+     MUXCY:CI->O           1   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_7 (switch6_delay_Madd__n0000_inst_cy_7)
+     MUXCY:CI->O           0   0.042   0.000  switch6_delay_Madd__n0000_inst_cy_8 (switch6_delay_Madd__n0000_inst_cy_8)
+     XORCY:CI->O           1   0.420   1.035  switch6_delay_Madd__n0000_inst_sum_9 (switch6_delay__n0000<9>)
+     LUT4_L:I3->LO         1   0.549   0.000  switch6_delay_next_count<9>1 (switch6_delay_next_count<9>)
+     FDE:D                     0.709          switch6_delay_count_reg_out_9
+    ----------------------------------------
+    Total                      7.418ns (4.223ns logic, 3.195ns route)
+                                       (56.9% logic, 43.1% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+Offset:              9.609ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       switch6_delay_count_reg_out_8 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to switch6_delay_count_reg_out_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            78   0.776   5.490  rst_IBUF (rst_IBUF)
+     LUT4_D:I0->O          9   0.549   1.908  switch6__n00001 (switch6__n0000)
+     FDE:CE                    0.886          switch6_delay_count_reg_out_1
+    ----------------------------------------
+    Total                      9.609ns (2.211ns logic, 7.398ns route)
+                                       (23.0% logic, 77.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+Offset:              6.959ns (Levels of Logic = 1)
+  Source:            switch1_deb_reg_out_0 (FF)
+  Destination:       right_out (PAD)
+  Source Clock:      clk rising
+
+  Data Path: switch1_deb_reg_out_0 to right_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   1.085   1.206  switch1_deb_reg_out_0 (switch1_deb_reg_out_0)
+     OBUF:I->O                 4.668          right_out_OBUF (right_out)
+    ----------------------------------------
+    Total                      6.959ns (5.753ns logic, 1.206ns route)
+                                       (82.7% logic, 17.3% route)
+
+=========================================================================
+CPU : 2.30 / 2.78 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 56532 kilobytes
+
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn __projnav/LFSR.xst -ofn LFSR.syr
+xst -intstyle ise -ifn __projnav/LFSR.xst -ofn LFSR.syr

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 vga_cruiser_top.ngc vga_cruiser_top.ngd
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr
+ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc vga_cruiser.ucf  -p xc2s100-tq144-6 vga_cruiser_top.ngc vga_cruiser_top.ngd
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr
+xst -intstyle ise -ifn __projnav/vga_cruiser_top.xst -ofn vga_cruiser_top.syr

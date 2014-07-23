@@ -1,0 +1,29 @@
+Release 6.1.03i - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\ee108a\pirate3/_ngo -uc
+vga_cruiser.ucf -p xc2s100-tq144-6 top_dog.ngc top_dog.ngd 
+
+Reading NGO file "C:/EE108a/Pirate3/top_dog.ngc" ...
+Reading component libraries for design expansion...
+Launcher: "bram1.ngo" is up to date.
+Loading design module "c:\ee108a\pirate3\_ngo\bram1.ngo"...
+blkmemdp_v5_0, Coregen 6.1.03i
+Launcher: "bram2.ngo" is up to date.
+Loading design module "c:\ee108a\pirate3\_ngo\bram2.ngo"...
+blkmemdp_v5_0, Coregen 6.1.03i
+
+Annotating constraints to design from file "vga_cruiser.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 42936 kilobytes
+
+Writing NGD file "top_dog.ngd" ...
+
+Writing NGDBUILD log file "top_dog.bld"...

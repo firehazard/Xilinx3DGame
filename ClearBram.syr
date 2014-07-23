@@ -1,0 +1,321 @@
+Release 6.1.03i - xst G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ClearBram.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : ClearBram.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : ClearBram
+Output Format                      : NGC
+Target Device                      : xc2s100-6-tq144
+
+---- Source Options
+Top Module Name                    : ClearBram
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : ClearBram.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "dffre.v"
+Module <dffre> compiled
+Compiling source file "counter.v"
+Module <counter> compiled
+Compiling source file "ClearBram.v"
+Module <ClearBram> compiled
+No errors in compilation
+Analysis of file <ClearBram.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ClearBram>.
+Module <ClearBram> is correct for synthesis.
+ 
+Analyzing module <counter>.
+Module <counter> is correct for synthesis.
+ 
+Analyzing module <dffre>.
+Module <dffre> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <dffre>.
+    Related source file is dffre.v.
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <dffre> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is counter.v.
+    Found 8-bit adder for signal <$n0000> created at line 16.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <ClearBram>.
+    Related source file is ClearBram.v.
+Unit <ClearBram> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 1
+  8-bit register                   : 1
+# Adders/Subtractors               : 1
+  8-bit adder                      : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ClearBram> ...
+
+Optimizing unit <counter> ...
+Loading device for application Xst from file 'v100.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ClearBram, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ClearBram.ngr
+Top Level Output File Name         : ClearBram
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 76
+
+Macro Statistics :
+# Registers                        : 1
+#      8-bit register              : 1
+# Adders/Subtractors               : 1
+#      8-bit adder                 : 1
+
+Cell Usage :
+# BELS                             : 36
+#      GND                         : 1
+#      LUT1_L                      : 8
+#      LUT2                        : 2
+#      LUT3                        : 1
+#      LUT3_L                      : 7
+#      LUT4                        : 2
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 7
+# FlipFlops/Latches                : 8
+#      FDRE                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 75
+#      IBUF                        : 2
+#      OBUF                        : 73
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s100tq144-6 
+
+ Number of Slices:                      12  out of   1200     1%  
+ Number of Slice Flip Flops:             8  out of   2400     0%  
+ Number of 4 input LUTs:                20  out of   2400     0%  
+ Number of bonded IOBs:                 75  out of     96    78%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 6.698ns (Maximum Frequency: 149.298MHz)
+   Minimum input arrival time before clock: 6.514ns
+   Maximum output required time after clock: 10.361ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clock'
+Delay:               6.698ns (Levels of Logic = 10)
+  Source:            clear_counter_count_reg_q_0 (FF)
+  Destination:       clear_counter_count_reg_q_7 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: clear_counter_count_reg_q_0 to clear_counter_count_reg_q_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   1.085   1.440  clear_counter_count_reg_q_0 (clear_counter_count_reg_q_0)
+     LUT1_L:I0->LO         1   0.549   0.000  clear_counter_Madd__n0000_inst_lut2_01 (clear_counter_Madd__n0000_inst_lut2_0)
+     MUXCY:S->O            1   0.659   0.000  clear_counter_Madd__n0000_inst_cy_0 (clear_counter_Madd__n0000_inst_cy_0)
+     MUXCY:CI->O           1   0.042   0.000  clear_counter_Madd__n0000_inst_cy_1 (clear_counter_Madd__n0000_inst_cy_1)
+     MUXCY:CI->O           1   0.042   0.000  clear_counter_Madd__n0000_inst_cy_2 (clear_counter_Madd__n0000_inst_cy_2)
+     MUXCY:CI->O           1   0.042   0.000  clear_counter_Madd__n0000_inst_cy_3 (clear_counter_Madd__n0000_inst_cy_3)
+     MUXCY:CI->O           1   0.042   0.000  clear_counter_Madd__n0000_inst_cy_4 (clear_counter_Madd__n0000_inst_cy_4)
+     MUXCY:CI->O           1   0.042   0.000  clear_counter_Madd__n0000_inst_cy_5 (clear_counter_Madd__n0000_inst_cy_5)
+     MUXCY:CI->O           0   0.042   0.000  clear_counter_Madd__n0000_inst_cy_6 (clear_counter_Madd__n0000_inst_cy_6)
+     XORCY:CI->O           1   0.420   1.035  clear_counter_Madd__n0000_inst_sum_7 (clear_counter__n0000<7>)
+     LUT3_L:I2->LO         1   0.549   0.000  clear_counter_next_count<7>1 (clear_counter_next_count<7>)
+     FDRE:D                    0.709          clear_counter_count_reg_q_7
+    ----------------------------------------
+    Total                      6.698ns (4.223ns logic, 2.475ns route)
+                                       (63.0% logic, 37.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+Offset:              6.514ns (Levels of Logic = 2)
+  Source:            enable (PAD)
+  Destination:       clear_counter_count_reg_q_6 (FF)
+  Destination Clock: clock rising
+
+  Data Path: enable to clear_counter_count_reg_q_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   0.776   2.610  enable_IBUF (enable_IBUF)
+     LUT2:I1->O            8   0.549   1.845  _n00001 (_n0000)
+     FDRE:R                    0.734          clear_counter_count_reg_q_0
+    ----------------------------------------
+    Total                      6.514ns (2.059ns logic, 4.455ns route)
+                                       (31.6% logic, 68.4% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+Offset:              10.361ns (Levels of Logic = 3)
+  Source:            clear_counter_count_reg_q_0 (FF)
+  Destination:       doneclear (PAD)
+  Source Clock:      clock rising
+
+  Data Path: clear_counter_count_reg_q_0 to doneclear
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   1.085   1.440  clear_counter_count_reg_q_0 (clear_counter_count_reg_q_0)
+     LUT4:I3->O            1   0.549   1.035  doneclear9 (CHOICE19)
+     LUT2:I1->O            1   0.549   1.035  doneclear10 (doneclear_OBUF)
+     OBUF:I->O                 4.668          doneclear_OBUF (doneclear)
+    ----------------------------------------
+    Total                     10.361ns (6.851ns logic, 3.510ns route)
+                                       (66.1% logic, 33.9% route)
+
+=========================================================================
+CPU : 1.56 / 2.03 s | Elapsed : 1.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 54484 kilobytes
+
+

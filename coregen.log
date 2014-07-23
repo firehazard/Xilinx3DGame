@@ -1,0 +1,22 @@
+# Xilinx CORE Generator 6.1.03i
+# User = Tom
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in C:\EE108a\Pirate3\coregen.log
+# lockprojectprops=false
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=C:\EE108a\Pirate3
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=Verilog VHDL
+# xilinxfamily=Spartan2
+# outputoption=OutputProducts
+# overwritefiles=true
+# simvendor=ModelSim
+# expandedprojectpath=C:\EE108a\Pirate3
+SETPROJECT .
+Set current Project to C:\EE108a\Pirate3
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 1170
+XIPCPJSENDCORES spartan2

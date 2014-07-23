@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/edge_detect.xst -ofn edge_detect.syr
+ngdbuild -intstyle ise -dd c:\ee108a\tcruiserblab/_ngo -i  -p xc2s100-tq144-6 edge_detect.ngc edge_detect.ngd
+map -intstyle ise -p xc2s100-tq144-6 -cm area -pr b -k 4 -c 100 -tx off -o edge_detect_map.ncd edge_detect.ngd edge_detect.pcf
+par -w -intstyle ise -ol high -t 1 edge_detect_map.ncd edge_detect.ncd edge_detect.pcf
+trce -intstyle ise -e 3 -l 3 -xml edge_detect edge_detect.ncd -o edge_detect.twr edge_detect.pcf
+bitgen -intstyle ise -f edge_detect.ut edge_detect.ncd

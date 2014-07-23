@@ -1,0 +1,69 @@
+--------------------------------------------------------------------------------
+Release 6.1.03i Trace G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml top_dog top_dog.ncd -o
+top_dog.twr top_dog.pcf
+
+
+Design file:              top_dog.ncd
+Physical constraint file: top_dog.pcf
+Device,speed:             xc2s100,-6 (PRODUCTION 1.27 2003-11-04)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+a_b         |    2.819(R)|   -0.576(R)|clock_BUFGP       |   0.000|
+c_start     |    2.984(R)|   -0.181(R)|clock_BUFGP       |   0.000|
+down_in     |    7.314(R)|   -2.929(R)|clock_BUFGP       |   0.000|
+left_in     |    4.012(R)|   -1.039(R)|clock_BUFGP       |   0.000|
+resetn      |   11.288(R)|   -0.500(R)|clock_BUFGP       |   0.000|
+right_in    |    3.288(R)|   -0.584(R)|clock_BUFGP       |   0.000|
+up_in       |    6.177(R)|   -1.030(R)|clock_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+vga_blue0   |    6.385(R)|clock_BUFGP       |   0.000|
+vga_blue1   |    6.417(R)|clock_BUFGP       |   0.000|
+vga_green0  |    6.381(R)|clock_BUFGP       |   0.000|
+vga_green1  |    6.382(R)|clock_BUFGP       |   0.000|
+vga_hsync   |    6.417(R)|clock_BUFGP       |   0.000|
+vga_red0    |    6.385(R)|clock_BUFGP       |   0.000|
+vga_red1    |    6.382(R)|clock_BUFGP       |   0.000|
+vga_vsync   |    6.387(R)|clock_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |   28.897|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Wed Mar 10 19:31:16 2004
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 55 MB

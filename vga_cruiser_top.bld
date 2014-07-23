@@ -1,0 +1,19 @@
+Release 6.1.03i - ngdbuild G.26
+Copyright (c) 1995-2003 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\ee108a\final\tunnelcruiser/_ngo -uc
+vga_cruiser.ucf -p xc2s100-tq144-6 vga_cruiser_top.ngc vga_cruiser_top.ngd 
+
+Reading NGO file "C:/EE108a/Final/TunnelCruiser/vga_cruiser_top.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "vga_cruiser.ucf" ...
+ERROR:NgdBuild:755 - Line 11 in 'vga_cruiser.ucf': Could not find net(s)
+   'resetn' in the design.  To suppress this error specify the correct net name
+   or remove the constraint.  The 'Ignore I\O constraints on Invalid Object
+   Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "vga_cruiser.ucf".
+
+Writing NGDBUILD log file "vga_cruiser_top.bld"...

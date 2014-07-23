@@ -1,0 +1,15 @@
+verilog work dff.v
+verilog work dffre.v
+verilog work counter.v
+verilog work edge_detect.v
+verilog work slow_clk.v
+verilog work Growth_LUT.v
+verilog work CoordTrans.v
+verilog work square_unit.v
+verilog work ClearBram.v
+verilog work CruiserView.v
+verilog work SquareWriter.v
+verilog work EdgeCalculator.v
+verilog work PointWriter.v
+verilog work lfsr.v
+verilog work Tunnel.v

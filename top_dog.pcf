@@ -1,0 +1,388 @@
+SCHEMATIC START ;
+// created by map version G.26 on Wed Mar 10 19:29:04 2004 
+COMP "clock" LOCATE =  SITE "P88" LEVEL 1; 
+COMP "left_in" LOCATE =  SITE "P56" LEVEL 1; 
+COMP "vga_blue0" LOCATE =  SITE "P21" LEVEL 1; 
+COMP "vga_blue1" LOCATE =  SITE "P22" LEVEL 1; 
+COMP "down_in" LOCATE =  SITE "P27" LEVEL 1; 
+COMP "up_in" LOCATE =  SITE "P28" LEVEL 1; 
+COMP "vga_hsync" LOCATE =  SITE "P23" LEVEL 1; 
+COMP "vga_red0" LOCATE =  SITE "P12" LEVEL 1; 
+COMP "vga_red1" LOCATE =  SITE "P13" LEVEL 1; 
+COMP "right_in" LOCATE =  SITE "P54" LEVEL 1; 
+COMP "a_b" LOCATE =  SITE "P64" LEVEL 1; 
+COMP "vga_vsync" LOCATE =  SITE "P26" LEVEL 1; 
+COMP "c_start" LOCATE =  SITE "P63" LEVEL 1; 
+COMP "resetn" LOCATE =  SITE "P78" LEVEL 1; 
+COMP "vga_green0" LOCATE =  SITE "P19" LEVEL 1; 
+COMP "vga_green1" LOCATE =  SITE "P20" LEVEL 1; 
+PIN "childress/B5.A_pins<31>" = NET "clock_BUFGP" BEL "childress/B5.A" ;
+PIN "childress/B5.B_pins<31>" = NET "clock_BUFGP" BEL "childress/B5.B" ;
+PIN "childress/B8.A_pins<31>" = NET "clock_BUFGP" BEL "childress/B8.A" ;
+PIN "childress/B8.B_pins<31>" = NET "clock_BUFGP" BEL "childress/B8.B" ;
+PIN "childress/B50.A_pins<31>" = NET "clock_BUFGP" BEL "childress/B50.A" ;
+PIN "childress/B50.B_pins<31>" = NET "clock_BUFGP" BEL "childress/B50.B" ;
+PIN "childress/B53.A_pins<31>" = NET "clock_BUFGP" BEL "childress/B53.A" ;
+PIN "childress/B53.B_pins<31>" = NET "clock_BUFGP" BEL "childress/B53.B" ;
+PIN "yao_ming/B5.A_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B5.A" ;
+PIN "yao_ming/B5.B_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B5.B" ;
+PIN "yao_ming/B8.A_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B8.A" ;
+PIN "yao_ming/B8.B_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B8.B" ;
+PIN "yao_ming/B50.A_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B50.A" ;
+PIN "yao_ming/B50.B_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B50.B" ;
+PIN "yao_ming/B53.A_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B53.A" ;
+PIN "yao_ming/B53.B_pins<31>" = NET "clock_BUFGP" BEL "yao_ming/B53.B" ;
+TIMEGRP "clock" = PIN "childress/B5.A_pins<31>" PIN "childress/B5.B_pins<31>" 
+PIN "childress/B8.A_pins<31>" PIN "childress/B8.B_pins<31>" BEL "childress/BU12"
+ PIN "childress/B50.A_pins<31>" PIN "childress/B50.B_pins<31>" PIN 
+"childress/B53.A_pins<31>" PIN "childress/B53.B_pins<31>" BEL "childress/BU57" 
+BEL "char_selection_reg_out_4" BEL "vga_vsync_reg_out_0" BEL 
+"vga_hsync_reg_out_0" BEL "pilot_reg_out_0" PIN "yao_ming/B5.A_pins<31>" PIN 
+"yao_ming/B5.B_pins<31>" PIN "yao_ming/B8.A_pins<31>" PIN 
+"yao_ming/B8.B_pins<31>" BEL "yao_ming/BU12" PIN "yao_ming/B50.A_pins<31>" PIN 
+"yao_ming/B50.B_pins<31>" PIN "yao_ming/B53.A_pins<31>" PIN 
+"yao_ming/B53.B_pins<31>" BEL "yao_ming/BU57" BEL "bselect_reg_out_0" BEL 
+"speed_reg_out_0" BEL "tcgrom_reg_out_0" BEL "tcgrom_reg_out_1" BEL 
+"tcgrom_reg_out_5" BEL "char_selection_reg_out_5" BEL "char_selection_reg_out_0"
+ BEL "char_selection_reg_out_1" BEL "char_selection_reg_out_2" BEL 
+"char_selection_reg_out_3" BEL "vga_blue_reg_out_1" BEL "vga_green_reg_out_1" 
+BEL "vga_red_reg_out_1" BEL "TunnelCruiser_pointwriter_y_counter_count_reg_q_3" 
+BEL "TunnelCruiser_pointwriter_y_counter_count_reg_q_2" BEL 
+"TunnelCruiser_pointwriter_y_counter_count_reg_q_1" BEL "syncVGA_ResetCntX" BEL 
+"syncVGA_vga_h_sync" BEL "syncVGA_vga_v_sync" BEL 
+"TunnelCruiser_pointwriter_y_counter_count_reg_q_0" BEL 
+"TunnelCruiser_pointwriter_y_counter_count_reg_q_5" BEL "syncVGA_CounterX_9" 
+BEL "syncVGA_CounterY_8" BEL "syncVGA_CounterY_9" BEL "syncVGA_CounterY_0" BEL 
+"syncVGA_CounterY_1" BEL "syncVGA_CounterY_2" BEL "syncVGA_CounterY_3" BEL 
+"syncVGA_CounterY_4" BEL "syncVGA_CounterY_5" BEL "syncVGA_CounterY_6" BEL 
+"syncVGA_CounterY_7" BEL "syncVGA_CounterX_10" BEL "syncVGA_CounterX_0" BEL 
+"syncVGA_CounterX_1" BEL "syncVGA_CounterX_2" BEL "syncVGA_CounterX_3" BEL 
+"syncVGA_CounterX_4" BEL "syncVGA_CounterX_5" BEL "syncVGA_CounterX_6" BEL 
+"syncVGA_CounterX_7" BEL "syncVGA_CounterX_8" BEL "in_switch5_deb_reg_out_0" 
+BEL "in_switch5_enable_reg_out_0" BEL "in_switch5_delay_count_reg_out_8" BEL 
+"in_switch5_delay_count_reg_out_9" BEL "in_switch5_delay_count_reg_out_0" BEL 
+"in_switch5_delay_count_reg_out_1" BEL "in_switch5_delay_count_reg_out_2" BEL 
+"in_switch5_delay_count_reg_out_3" BEL "in_switch5_delay_count_reg_out_4" BEL 
+"in_switch5_delay_count_reg_out_5" BEL "in_switch5_delay_count_reg_out_6" BEL 
+"in_switch5_delay_count_reg_out_7" BEL "in_switch4_deb_reg_out_0" BEL 
+"in_switch4_enable_reg_out_0" BEL "in_switch4_delay_count_reg_out_8" BEL 
+"in_switch4_delay_count_reg_out_9" BEL "in_switch4_delay_count_reg_out_0" BEL 
+"in_switch4_delay_count_reg_out_1" BEL "in_switch4_delay_count_reg_out_2" BEL 
+"in_switch4_delay_count_reg_out_3" BEL "in_switch4_delay_count_reg_out_4" BEL 
+"in_switch4_delay_count_reg_out_5" BEL "in_switch4_delay_count_reg_out_6" BEL 
+"in_switch4_delay_count_reg_out_7" BEL "in_switch3_deb_reg_out_0" BEL 
+"in_switch3_enable_reg_out_0" BEL "in_switch3_delay_count_reg_out_8" BEL 
+"in_switch3_delay_count_reg_out_9" BEL "in_switch3_delay_count_reg_out_0" BEL 
+"in_switch3_delay_count_reg_out_1" BEL "in_switch3_delay_count_reg_out_2" BEL 
+"in_switch3_delay_count_reg_out_3" BEL "in_switch3_delay_count_reg_out_4" BEL 
+"in_switch3_delay_count_reg_out_5" BEL "in_switch3_delay_count_reg_out_6" BEL 
+"in_switch3_delay_count_reg_out_7" BEL "in_switch2_deb_reg_out_0" BEL 
+"in_switch2_enable_reg_out_0" BEL "in_switch2_delay_count_reg_out_8" BEL 
+"in_switch2_delay_count_reg_out_9" BEL "in_switch2_delay_count_reg_out_0" BEL 
+"in_switch2_delay_count_reg_out_1" BEL "in_switch2_delay_count_reg_out_2" BEL 
+"in_switch2_delay_count_reg_out_3" BEL "in_switch2_delay_count_reg_out_4" BEL 
+"in_switch2_delay_count_reg_out_5" BEL "in_switch2_delay_count_reg_out_6" BEL 
+"in_switch2_delay_count_reg_out_7" BEL "in_switch1_deb_reg_out_0" BEL 
+"in_switch1_enable_reg_out_0" BEL "in_switch1_delay_count_reg_out_8" BEL 
+"in_switch1_delay_count_reg_out_9" BEL "in_switch1_delay_count_reg_out_0" BEL 
+"in_switch1_delay_count_reg_out_1" BEL "in_switch1_delay_count_reg_out_2" BEL 
+"in_switch1_delay_count_reg_out_3" BEL "in_switch1_delay_count_reg_out_4" BEL 
+"in_switch1_delay_count_reg_out_5" BEL "in_switch1_delay_count_reg_out_6" BEL 
+"in_switch1_delay_count_reg_out_7" BEL "in_switch6_deb_reg_out_0" BEL 
+"in_switch6_enable_reg_out_0" BEL "in_switch6_delay_count_reg_out_8" BEL 
+"in_switch6_delay_count_reg_out_9" BEL "in_switch6_delay_count_reg_out_0" BEL 
+"in_switch6_delay_count_reg_out_1" BEL "in_switch6_delay_count_reg_out_2" BEL 
+"in_switch6_delay_count_reg_out_3" BEL "in_switch6_delay_count_reg_out_4" BEL 
+"in_switch6_delay_count_reg_out_5" BEL "in_switch6_delay_count_reg_out_6" BEL 
+"in_switch6_delay_count_reg_out_7" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_5" BEL 
+"TunnelCruiser_buffer_out_0" BEL "TunnelCruiser_clkstate_reg_out_0" BEL 
+"TunnelCruiser_state_reg_out_0" BEL "TunnelCruiser_PantuRandom_rand_reg_out_8" 
+BEL "TunnelCruiser_scre_reg_out_0" BEL "TunnelCruiser_sq4_reg_out_0" BEL 
+"TunnelCruiser_sq3_reg_out_0" BEL "TunnelCruiser_sq2_reg_out_0" BEL 
+"TunnelCruiser_sq1_reg_out_0" BEL "TunnelCruiser_score3count_count_reg_q_1" BEL 
+"TunnelCruiser_score2count_count_reg_q_1" BEL 
+"TunnelCruiser_score1count_count_reg_q_1" BEL "TunnelCruiser_crashed_reg_out_0" 
+BEL "TunnelCruiser_score_reg_out_0" BEL "TunnelCruiser_state_reg_out_1" BEL 
+"TunnelCruiser_buffer_out_1" BEL "TunnelCruiser_score3count_count_reg_q_2" BEL 
+"TunnelCruiser_score3count_count_reg_q_3" BEL 
+"TunnelCruiser_score3count_count_reg_q_0" BEL 
+"TunnelCruiser_score2count_count_reg_q_2" BEL 
+"TunnelCruiser_score2count_count_reg_q_3" BEL 
+"TunnelCruiser_score2count_count_reg_q_0" BEL 
+"TunnelCruiser_score1count_count_reg_q_2" BEL 
+"TunnelCruiser_score1count_count_reg_q_3" BEL 
+"TunnelCruiser_score1count_count_reg_q_0" BEL 
+"TunnelCruiser_edgemebaby_dff1_out_0" BEL 
+"TunnelCruiser_slowmedown_ed1_dff1_out_0" BEL 
+"TunnelCruiser_alilfaster_ed1_dff1_out_0" BEL "TunnelCruiser_cview_x_reg_out_5" 
+BEL "TunnelCruiser_cview_y_reg_out_5" BEL "TunnelCruiser_cview_y_reg_out_6" BEL 
+"TunnelCruiser_cview_y_reg_out_0" BEL "TunnelCruiser_cview_y_reg_out_1" BEL 
+"TunnelCruiser_cview_y_reg_out_2" BEL "TunnelCruiser_cview_y_reg_out_3" BEL 
+"TunnelCruiser_cview_y_reg_out_4" BEL "TunnelCruiser_cview_x_reg_out_6" BEL 
+"TunnelCruiser_cview_x_reg_out_0" BEL "TunnelCruiser_cview_x_reg_out_1" BEL 
+"TunnelCruiser_cview_x_reg_out_2" BEL "TunnelCruiser_cview_x_reg_out_3" BEL 
+"TunnelCruiser_cview_x_reg_out_4" BEL "TunnelCruiser_swriter_state_reg_out_2" 
+BEL "TunnelCruiser_swriter_x_reg_out_6" BEL 
+"TunnelCruiser_swriter_state_reg_out_0" BEL "TunnelCruiser_swriter_x_reg_out_5" 
+BEL "TunnelCruiser_swriter_x_reg_out_7" BEL "TunnelCruiser_swriter_y_reg_out_7" 
+BEL "TunnelCruiser_swriter_depth_reg_out_4" BEL 
+"TunnelCruiser_swriter_enedge_reg_out_0" BEL 
+"TunnelCruiser_swriter_state_reg_out_1" BEL 
+"TunnelCruiser_swriter_depth_reg_out_5" BEL 
+"TunnelCruiser_swriter_depth_reg_out_0" BEL 
+"TunnelCruiser_swriter_depth_reg_out_1" BEL 
+"TunnelCruiser_swriter_depth_reg_out_2" BEL 
+"TunnelCruiser_swriter_depth_reg_out_3" BEL "TunnelCruiser_swriter_y_reg_out_8" 
+BEL "TunnelCruiser_swriter_y_reg_out_0" BEL "TunnelCruiser_swriter_y_reg_out_1" 
+BEL "TunnelCruiser_swriter_y_reg_out_2" BEL "TunnelCruiser_swriter_y_reg_out_3" 
+BEL "TunnelCruiser_swriter_y_reg_out_4" BEL "TunnelCruiser_swriter_y_reg_out_5" 
+BEL "TunnelCruiser_swriter_y_reg_out_6" BEL "TunnelCruiser_swriter_x_reg_out_8" 
+BEL "TunnelCruiser_swriter_x_reg_out_0" BEL "TunnelCruiser_swriter_x_reg_out_1" 
+BEL "TunnelCruiser_swriter_x_reg_out_2" BEL "TunnelCruiser_swriter_x_reg_out_3" 
+BEL "TunnelCruiser_swriter_x_reg_out_4" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_5" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_5" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_4" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_4" BEL 
+"TunnelCruiser_edgecalc_state_reg_out_1" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_5" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_0" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_1" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_2" BEL 
+"TunnelCruiser_edgecalc_yend_reg_out_3" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_5" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_0" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_1" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_2" BEL 
+"TunnelCruiser_edgecalc_ystart_reg_out_3" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_6" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_0" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_1" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_2" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_3" BEL 
+"TunnelCruiser_edgecalc_xend_reg_out_4" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_6" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_0" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_1" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_2" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_3" BEL 
+"TunnelCruiser_edgecalc_xstart_reg_out_4" BEL 
+"TunnelCruiser_edgecalc_state_reg_out_2" BEL 
+"TunnelCruiser_edgecalc_state_reg_out_0" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_9" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_10" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_0" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_1" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_2" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_3" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_4" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_5" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_6" BEL 
+"TunnelCruiser_PantuRandom_rand_reg_out_7" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_17" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_18" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_0" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_1" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_2" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_3" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_4" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_5" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_6" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_7" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_8" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_9" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_10" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_11" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_12" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_13" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_14" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_15" BEL 
+"TunnelCruiser_slowmedown_ck1_count_reg_q_16" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_14" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_15" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_0" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_1" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_2" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_3" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_4" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_5" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_6" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_7" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_8" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_9" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_10" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_11" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_12" BEL 
+"TunnelCruiser_alilfaster_ck1_count_reg_q_13" BEL 
+"TunnelCruiser_pointwriter_y_counter_count_reg_q_4" BEL 
+"TunnelCruiser_square1_depthr_out_11" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_12" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_12" BEL 
+"TunnelCruiser_square1_depthr_out_12" BEL "TunnelCruiser_square1_depthr_out_0" 
+BEL "TunnelCruiser_square1_depthr_out_1" BEL 
+"TunnelCruiser_square1_depthr_out_2" BEL "TunnelCruiser_square1_depthr_out_3" 
+BEL "TunnelCruiser_square1_depthr_out_4" BEL 
+"TunnelCruiser_square1_depthr_out_5" BEL "TunnelCruiser_square1_depthr_out_6" 
+BEL "TunnelCruiser_square1_depthr_out_7" BEL 
+"TunnelCruiser_square1_depthr_out_8" BEL "TunnelCruiser_square1_depthr_out_9" 
+BEL "TunnelCruiser_square1_depthr_out_10" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_13" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_0" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_1" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_2" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_3" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_4" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_5" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_6" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_7" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_8" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_9" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_10" BEL 
+"TunnelCruiser_square1_ycenter_reg_out_11" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_13" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_0" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_1" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_2" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_3" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_4" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_5" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_6" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_7" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_8" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_9" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_10" BEL 
+"TunnelCruiser_square1_xcenter_reg_out_11" BEL "syncVGA_EnableCntY" BEL 
+"tcgrom_reg_out_4" BEL "TunnelCruiser_square2_depthr_out_11" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_12" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_12" BEL 
+"TunnelCruiser_square2_depthr_out_12" BEL "TunnelCruiser_square2_depthr_out_0" 
+BEL "TunnelCruiser_square2_depthr_out_1" BEL 
+"TunnelCruiser_square2_depthr_out_2" BEL "TunnelCruiser_square2_depthr_out_3" 
+BEL "TunnelCruiser_square2_depthr_out_4" BEL 
+"TunnelCruiser_square2_depthr_out_5" BEL "TunnelCruiser_square2_depthr_out_6" 
+BEL "TunnelCruiser_square2_depthr_out_7" BEL 
+"TunnelCruiser_square2_depthr_out_8" BEL "TunnelCruiser_square2_depthr_out_9" 
+BEL "TunnelCruiser_square2_depthr_out_10" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_13" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_0" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_1" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_2" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_3" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_4" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_5" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_6" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_7" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_8" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_9" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_10" BEL 
+"TunnelCruiser_square2_ycenter_reg_out_11" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_13" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_0" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_1" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_2" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_3" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_4" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_5" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_6" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_7" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_8" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_9" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_10" BEL 
+"TunnelCruiser_square2_xcenter_reg_out_11" BEL "tcgrom_reg_out_3" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_4" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_3" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_2" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_1" BEL "syncVGA_ResetCntY" BEL 
+"TunnelCruiser_square3_depthr_out_11" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_12" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_12" BEL 
+"TunnelCruiser_square3_depthr_out_12" BEL "TunnelCruiser_square3_depthr_out_0" 
+BEL "TunnelCruiser_square3_depthr_out_1" BEL 
+"TunnelCruiser_square3_depthr_out_2" BEL "TunnelCruiser_square3_depthr_out_3" 
+BEL "TunnelCruiser_square3_depthr_out_4" BEL 
+"TunnelCruiser_square3_depthr_out_5" BEL "TunnelCruiser_square3_depthr_out_6" 
+BEL "TunnelCruiser_square3_depthr_out_7" BEL 
+"TunnelCruiser_square3_depthr_out_8" BEL "TunnelCruiser_square3_depthr_out_9" 
+BEL "TunnelCruiser_square3_depthr_out_10" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_13" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_0" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_1" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_2" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_3" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_4" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_5" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_6" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_7" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_8" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_9" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_10" BEL 
+"TunnelCruiser_square3_ycenter_reg_out_11" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_13" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_0" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_1" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_2" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_3" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_4" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_5" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_6" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_7" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_8" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_9" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_10" BEL 
+"TunnelCruiser_square3_xcenter_reg_out_11" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_0" BEL "tcgrom_reg_out_2" BEL 
+"TunnelCruiser_pointwriter_x_counter_count_reg_q_6" BEL 
+"TunnelCruiser_square4_depthr_out_11" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_12" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_12" BEL 
+"TunnelCruiser_square4_depthr_out_12" BEL "TunnelCruiser_square4_depthr_out_0" 
+BEL "TunnelCruiser_square4_depthr_out_1" BEL 
+"TunnelCruiser_square4_depthr_out_2" BEL "TunnelCruiser_square4_depthr_out_3" 
+BEL "TunnelCruiser_square4_depthr_out_4" BEL 
+"TunnelCruiser_square4_depthr_out_5" BEL "TunnelCruiser_square4_depthr_out_6" 
+BEL "TunnelCruiser_square4_depthr_out_7" BEL 
+"TunnelCruiser_square4_depthr_out_8" BEL "TunnelCruiser_square4_depthr_out_9" 
+BEL "TunnelCruiser_square4_depthr_out_10" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_13" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_0" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_1" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_2" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_3" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_4" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_5" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_6" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_7" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_8" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_9" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_10" BEL 
+"TunnelCruiser_square4_ycenter_reg_out_11" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_13" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_0" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_1" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_2" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_3" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_4" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_5" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_6" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_7" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_8" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_9" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_10" BEL 
+"TunnelCruiser_square4_xcenter_reg_out_11" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_11" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_12" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_0" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_1" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_2" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_3" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_4" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_5" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_6" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_7" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_8" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_9" BEL 
+"TunnelCruiser_cleaning_clear_counter_count_reg_q_10" BEL "tcgrom_reg_out_6" 
+BEL "vga_red_reg_out_1_1" BEL "vga_green_reg_out_1_1" BEL "vga_blue_reg_out_1_1"
+ ;
+SCHEMATIC END ;

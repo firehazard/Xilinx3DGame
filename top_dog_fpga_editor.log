@@ -1,0 +1,15 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 1.0
+#Design Path Name:
+#:N   top_dog.ncd
+#Current Working Directory:
+#:D   C:\EE108a\Final\TunnelCruiser
+#Part Type:
+#:P  Xilinx xc2s100 tq144 -6
+#Date/Time:
+#:T   Sun Feb 29 12:46:40 2004
+#------------------------------
+	#1
+setattr main edit-mode no-logic-changes
